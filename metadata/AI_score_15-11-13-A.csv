@@ -1,0 +1,31 @@
+testID, questionID, MC, POINTS, CORRECT, gptRATE, gptTOPIC,,,,,,,,,,,,,
+15-11-13-A, Q1,,2,1,[2,3,5,1,5,2,5,2,3,2, 3], [Matrix Operations, Arithmetic Operations],,
+15-11-13-A, Q2,,2,1,[2,3,5,1,5,2,5,2,3,2, 3], [Exponents, Fractional Powers, Arithmetic Operations],
+15-11-13-A, Q3,,2,1,[2,3,5,1,5,2,5,3,3,2, 3], [Limits, Rational Functions, Algebraic Simplification],
+15-11-13-A, Q4,,3,1,[3,3,5,2,5,3,5,2,4,3, 3], [Graph Theory, Adjacency Matrix, Combinatorics],
+15-11-13-A, Q5,,3,0,[2,3,5,1,5,2,5,2,3,2, 3], [Derivatives, Polynomial Functions, Calculus],
+15-11-13-A, Q6,,3,1,[2,3,5,1,5,2,5,2,3,2, 3], [Probability, Conditional Probability, Set Theory],
+15-11-13-A, Q7,,3,1,[4,4,5,2,5,3,5,3,4,3, 4], [Sequences, Geometric Sequences, Algebraic Manipulation],
+15-11-13-A, Q8,,3,0,[3,3,5,2,5,3,5,3,4,3, 3], [Limits, Piecewise Functions, Graph Interpretation],
+15-11-13-A, Q9,,3,1,[2,3,5,1,5,2,5,2,3,2, 3], [Statistics, Standard Deviation, Sampling Distribution],
+15-11-13-A, Q10,,3,1,[4,4,5,2,5,3,5,3,4,4, 4], [Sequences, Limits, Quadratic Functions, Asymptotic Behavior]
+15-11-13-A, Q11,,3,1,[4,4,5,2,5,3,5,3,4,3, 4], [Logarithmic Inequalities, Algebra, Inequality Solving],
+15-11-13-A, Q12,,3,1,[3,3,5,2,5,3,5,3,4,3, 4], [Probability, Normal Distribution, Z-scores],
+15-11-13-A, Q13,,3,0,[3,3,5,2,5,3,5,3,4,3, 3], [Area Under Curve, Integration, Graph Interpretation],
+15-11-13-A, Q14,,4,1,[3,3,5,2,5,3,5,3,4,3, 3], [Area Under Curve, Quadratic Functions, Integration],
+15-11-13-A, Q15,,4,0,[5,5,5,3,5,4,5,4,5,5, 5], [Geometry, Infinite Series, Area Calculation, Fractal Geometry]
+15-11-13-A, Q16,,4,0,[4,4,5,2,5,3,5,3,4,4, 4], [Exponential Functions, Financial Mathematics, Algebraic Manipulation],
+15-11-13-A, Q17,,4,1,[4,4,5,2,5,3,5,3,4,4, 4], [Combinatorics, Integer Partitions, Counting Problems],
+15-11-13-A, Q18,,4,0,[4,4,5,3,5,4,5,3,4,4, 4], [Matrix Algebra, Matrix Equations, Linear Algebra],
+15-11-13-A, Q19,,4,0,[5,5,5,3,5,4,5,3,5,5, 5], [Recursion, Sequences, Factorials, Algebraic Manipulation]
+15-11-13-A, Q20,,4,1,[4,4,5,2,5,3,5,3,4,4, 4], [Integration, Polynomial Functions, Odd and Even Functions, Fundamental Theorem of Calculus]
+15-11-13-A, Q21,,4,0,[5,5,5,3,5,4,5,3,4,4, 4], [Cubic Functions, Derivatives, Optimization, Differentiability]
+15-11-13-A, Q22,,3,1,[2,3,4,2,5,2,5,2,3,3, 3], [Arithmetic Sequences, Algebra, Sequence Properties],
+15-11-13-A, Q23,,3,1,[2,3,5,1,5,2,5,2,3,2, 3], [Limits, Exponential Functions, Asymptotic Behavior],
+15-11-13-A, Q24,,3,1,[4,4,5,2,5,3,5,3,4,4, 4], [Linear Algebra, Matrix Equations, System of Linear Equations],
+15-11-13-A, Q25,,3,1,[3,3,4,2,5,2,5,2,3,3, 3], [Probability, Expectation, Discrete Random Variables],
+15-11-13-A, Q26,,4,1,[3,3,5,2,5,3,5,3,3,3, 3], [Probability, Conditional Probability, Total Probability],
+15-11-13-A, Q27,,4,0,[4,4,5,2,5,3,5,3,4,4, 4], [Piecewise Functions, Continuity, Product of Functions, Limits]
+15-11-13-A, Q28,,4,1,[4,4,5,2,5,3,5,3,4,4, 4], [Limits, Polynomial Functions, Tangent Line, Derivatives]
+15-11-13-A, Q29,,4,1,[4,4,5,2,5,3,5,3,4,4, 4], [Quadratic Functions, Integrals, Absolute Value, Continuity]
+15-11-13-A, Q30,,4,1,[4,4,5,3,5,3,5,3,4,5, 5], [Logarithmic Functions, Linear Equations, Optimization, Geometry]

@@ -1,0 +1,34 @@
+{
+  "id": "chatcmpl-ArsBLbKq7PxEjK8aY5HEPmzYuEmEA",
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "message": {
+        "content": "",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1737403023,
+  "model": "o1-preview-2024-09-12",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_6722463bcd",
+  "usage": {
+    "completion_tokens": 5000,
+    "prompt_tokens": 235,
+    "total_tokens": 5235,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 5000,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}

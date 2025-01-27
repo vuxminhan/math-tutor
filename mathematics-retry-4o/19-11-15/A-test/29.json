@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-Aoyq3RguzDD0xMPxrqvbrkaE5Xpvc",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"steps\":[{\"output\":\"[KR] 1. 먼저, 선분 $AB$의 방향 벡터를 구하겠습니다.\\n\\\\[\\n\\\\overrightarrow{AB} = (-2 - 3, 7 + 3, -2 - 3) = (-5, 10, -5)\\n\\\\]\\n\\n[EN] 1. First, find the direction vector of segment $AB$:\\n\\\\[\\n\\\\overrightarrow{AB} = (-2 - 3, 7 + 3, -2 - 3) = (-5, 10, -5)\\n\\\\]\",\"explanation\":\"Calculate the direction vector by subtracting the coordinates of point A from point B.\"},{\"output\":\"[KR] 2. 선분 $AB$를 포함하고 구 $x^2 + y^2 + z^2 = 1$에 접하는 평면의 방정식은\\n\\\\[\\nax + by + cz = 1\\n\\\\]\\n이며, $a$, $b$, $c$는 $\\\\overrightarrow{AB}$의 방향과 동일한 방향이어야 하므로\\n\\\\[\\na : b : c = -5 : 10 : -5 = -1 : 2 : -1\\n\\\\]\\n이 됩니다.\\n\\n[EN] 2. The equation of the plane that includes line segment $AB$ and is tangent to the sphere $x^2 + y^2 + z^2 = 1$ is:\\n\\\\[\\nax + by + cz = 1\\n\\\\]\\nwhere $a$, $b$, $c$ must be proportional to the direction vector of $\\\\overrightarrow{AB}$:\\n\\\\[\\na : b : c = -5 : 10 : -5 = -1 : 2 : -1\\n\\\\]\",\"explanation\":\"The plane's normal vector must be proportional to the direction vector of the line segment AB.\"},{\"output\":\"[KR] 3. 평면 $\\\\alpha$, $\\\\beta$의 방정식은 $-x + 2y - z = d$가 됩니다. 이때, 평면이 구에 접해야 하므로 구의 중심 $(0,0,0)$과 평면 사이의 거리는 반지름 $1$과 같아야 합니다. 따라서\\n\\\\[\\n\\\\frac{|d|}{\\\\sqrt{(-1)^2 + 2^2 + (-1)^2}} = 1\\n\\\\]\\n를 만족해야 하며, 이로부터 $d = \\\\pm \\\\sqrt{3}$임을 알 수 있습니다.\\n\\n[EN] 3. The equations of the planes $\\\\alpha$ and $\\\\beta$ are $-x + 2y - z = d$. The distance from the origin $(0,0,0)$ to the plane must be equal to the radius $1$, so:\\n\\\\[\\n\\\\frac{|d|}{\\\\sqrt{(-1)^2 + 2^2 + (-1)^2}} = 1\\n\\\\]\\nSolving this, we find $d = \\\\pm \\\\sqrt{3}$.\",\"explanation\":\"Use the formula for the distance from a point to a plane to find the value of d.\"},{\"output\":\"[KR] 4. 따라서 평면 $\\\\alpha$와 $\\\\beta$의 방정식은 각각\\n\\\\[\\n-x + 2y - z = \\\\sqrt{3}, \\\\quad -x + 2y - z = -\\\\sqrt{3}\\n\\\\]\\n이 됩니다.\\n\\n[EN] 4. Therefore, the equations of the planes $\\\\alpha$ and $\\\\beta$ are:\\n\\\\[\\n-x + 2y - z = \\\\sqrt{3}, \\\\quad -x + 2y - z = -\\\\sqrt{3}\\n\\\\]\",\"explanation\":\"Substitute the values of d into the plane equation to get the equations of the tangent planes.\"},{\"output\":\"[KR] 5. 각 평면과 구의 접점을 $C$, $D$라 하면 $C$와 $D$의 좌표는 평면의 방정식을 만족하며, 다음과 같습니다.\\n\\\\[\\nC\\\\left(\\\\frac{\\\\sqrt{3}}{3}, -\\\\frac{2\\\\sqrt{3}}{3}, \\\\frac{\\\\sqrt{3}}{3}\\\\right), \\\\quad D\\\\left(-\\\\frac{\\\\sqrt{3}}{3}, \\\\frac{2\\\\sqrt{3}}{3}, -\\\\frac{\\\\sqrt{3}}{3}\\\\right)\\n\\\\]\\n\\n[EN] 5. The points of tangency $C$ and $D$, which satisfy the plane equations, are:\\n\\\\[\\nC\\\\left(\\\\frac{\\\\sqrt{3}}{3}, -\\\\frac{2\\\\sqrt{3}}{3}, \\\\frac{\\\\sqrt{3}}{3}\\\\right), \\\\quad D\\\\left(-\\\\frac{\\\\sqrt{3}}{3}, \\\\frac{2\\\\sqrt{3}}{3}, -\\\\frac{\\\\sqrt{3}}{3}\\\\right)\\n\\\\]\",\"explanation\":\"Solve the plane equations to find the coordinates of the points of tangency.\"},{\"output\":\"[KR] 6. 이제 사면체 $ABCD$의 부피를 구하겠습니다.\\n사면체의 부피는 다음과 같이 구할 수 있습니다.\\n\\\\[\\nV = \\\\frac{1}{6} \\\\left| \\\\overrightarrow{AB} \\\\cdot \\\\left(\\\\overrightarrow{AC} \\\\times \\\\overrightarrow{AD}\\\\right) \\\\right|\\n\\\\]\\n\\n계산을 통해 $V = \\\\frac{\\\\sqrt{3}}{6}$가 되므로, 부피는 $\\\\frac{q\\\\sqrt{3}}{p} = \\\\frac{1\\\\sqrt{3}}{6}$이고, 여기서 $p = 6$, $q = 1$임을 알 수 있습니다.\\n\\n[EN] 6. Now, calculate the volume of the tetrahedron $ABCD$:\\nThe volume $V$ is given by:\\n\\\\[\\nV = \\\\frac{1}{6} \\\\left| \\\\overrightarrow{AB} \\\\cdot \\\\left(\\\\overrightarrow{AC} \\\\times \\\\overrightarrow{AD}\\\\right) \\\\right|\\n\\\\]\\n\\nAfter computation, $V = \\\\frac{\\\\sqrt{3}}{6}$. Therefore, the volume is $\\\\frac{q\\\\sqrt{3}}{p} = \\\\frac{1\\\\sqrt{3}}{6}$, and we find $p = 6$, $q = 1$.\",\"explanation\":\"Use the formula for the volume of a tetrahedron given its vertices.\"},{\"output\":\"[KR] 7. 따라서 $p + q = 6 + 1 = 7$이 됩니다.\\n\\n[EN] 7. Thus, $p + q = 6 + 1 = 7$.\",\"explanation\":\"Add the values of p and q to find the final answer.\"}],\"final_answer\":\"7\"}",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1736713627,
+  "model": "gpt-4o-2024-08-06",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_b7d65f1a5b",
+  "usage": {
+    "completion_tokens": 1529,
+    "prompt_tokens": 2400,
+    "total_tokens": 3929,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}

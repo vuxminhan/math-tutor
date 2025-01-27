@@ -1,0 +1,586 @@
+testID, questionID, MC, POINTS, CORRECT, gptRATE, gptTOPIC
+13-11-08-A, Q1,1,2, 1, "[3, 3, 4, 2, 5, 2, 5, 2, 3, 3, 3]", "[Exponents, Fractional Powers, Arithmetic Operations]"
+13-11-08-A, Q2,1,2, 1, "[3, 3, 4, 3, 5, 3, 5, 3, 3, 3, 3]", "[Matrices, Matrix Addition, Scalar Multiplication, Arithmetic Operations]"
+13-11-08-A, Q3,1,2, 1, "[4, 4, 4, 3, 5, 3, 5, 3, 4, 3, 4]", "[Limits, Sequences and Series, Asymptotic Analysis, Exponential Growth]"
+13-11-08-A, Q4,1,3, 0, "[4, 4, 4, 3, 4, 3, 5, 3, 4, 3, 4]", "[Graph Theory, Adjacency Matrix, Matrix Interpretation, Graph Connectivity]"
+13-11-08-A, Q5,1,3, 1, "[4, 4, 4, 3, 5, 3, 5, 3, 4, 3, 4]", "[Calculus, Derivatives, Limits, Function Analysis]"
+13-11-08-A, Q6,1,3, 1, "[4, 4, 4, 3, 5, 3, 5, 3, 4, 3, 4]", "[Arithmetic Sequences, Series, Algebra, Summation Formulas]"
+13-11-08-A, Q7,1,3, 1, "[3, 3, 4, 3, 5, 3, 5, 3, 4, 3, 3]", "[Probability, Independent Events, Complementary Events, Set Theory]"
+13-11-08-A, Q8,1,3, 1, "[4, 4, 4, 3, 5, 3, 5, 3, 4, 3, 4]", "[Calculus, Area Between Curves, Integration, Quadratic Functions]"
+13-11-08-A, Q9,1,3, 1, "[4, 4, 4, 3, 5, 3, 5, 3, 4, 3, 4]", "[Probability, Binomial Distribution, Expectation, Variance, Algebra]"
+13-11-08-A, Q10,1,3, 0, "[5, 4, 4, 3, 5, 3, 5, 3, 4, 3, 5]", "[Calculus, Algebra, Logarithms, Fluid Dynamics, Pipe Flow]"
+13-11-08-A, Q11,1,3, 0, "[4, 4, 4, 3, 5, 3, 5, 3, 4, 3, 4]", "[Calculus, Limits, Continuity, Function Behavior]"
+13-11-08-A, Q12,1,3, 1, "[5, 4, 4, 3, 5, 3, 5, 3, 4, 3, 4]", "[Probability, Normal Distribution, Central Limit Theorem, Z-Scores, Statistical Inference]"
+13-11-08-A, Q13,1,3, 1, "[4, 4, 4, 3, 5, 3, 5, 3, 4, 3, 4]", "[Sequences, Series, Logarithms, Functions, Summation]"
+13-11-08-A, Q14,1,4, 0, "[5, 4, 4, 3, 5, 3, 5, 3, 4, 3, 4]", "[Number Theory, Functions, Divisibility, Algebra, Ordered Pairs]"
+13-11-08-A, Q15,1,4, 1, "[3, 3, 4, 2, 5, 2, 5, 3, 3, 4, 3]", "[Probability, Conditional Probability, Total Probability]"
+13-11-08-A, Q16,1,4, 0, "[4, 5, 4, 5, 5, 4, 5, 3, 4, 5, 4]", "[Sequences, Logarithms, Recursive Sequences, Algebra, Functions, Series]"
+13-11-08-A, Q17,1,4, 0, "[4, 5, 4, 5, 5, 4, 4, 3, 4, 4, 5]", "[Geometry, Calculus, Sequences, Limits, Areas, Fractal Geometry]"
+13-11-08-A, Q18,1,4, 1, "[4, 4, 5, 3, 4, 4, 5, 3, 4, 3, 4]", "[Combinatorics, Probability, Counting, Distributions, Integer Partitions]"
+13-11-08-A, Q19,1,4, 0, "[4, 4, 4, 3, 4, 4, 5, 3, 4, 4, 4]", "[Linear Algebra, Matrix Operations, Matrix Equations, Determinants, Properties of Matrices]"
+13-11-08-A, Q20,1,4, 0, "[5, 5, 4, 3, 4, 4, 5, 3, 5, 4, 5]", "[Logarithms, Number Theory, Sequences, Limits, Mathematical Analysis]"
+13-11-08-A, Q21,1,4, 1, "[4, 4, 5, 3, 4, 3, 5, 3, 4, 4, 5]", "[Cubic Functions, Differentiation, Tangents, Geometry, Calculus]"
+13-11-08-A, Q22,0,3, 1, "[2, 3, 5, 1, 5, 1, 5, 1, 4, 3, 3]", "[Limits, Square Roots, Calculus]"
+13-11-08-A, Q23,0,3, 1, "[3, 3, 5, 2, 5, 2, 5, 3, 4, 3, 4]", "[Integrals, Symmetry, Algebra, Calculus]"
+13-11-08-A, Q24,0,3, 0, "[2, 3, 5, 2, 5, 2, 5, 3, 4, 3, 3]", "[Sequences, Recursion, Algebra]"
+13-11-08-A, Q25,0,3, 1, "[3, 4, 5, 3, 4, 3, 5, 3, 4, 3, 4]", "[Functions, Derivatives, Critical Points, Optimization]"
+13-11-08-A, Q26,0,4, 0, "[4, 3, 4, 3, 4, 3, 4, 4, 4, 3, 3]", "[Linear Algebra, Systems of Equations, Matrices, Determinants]"
+13-11-08-A, Q27,0,4, 0, "[3, 3, 3, 2, 4, 3, 4, 4, 3, 3, 3]", "[Probability, Random Variables, Expectation, Combinatorics]"
+13-11-08-A, Q28,0,4, 0, "[4, 4, 5, 3, 5, 4, 5, 3, 4, 3, 5]", "[Piecewise Functions, Continuity, Algebra, Functions]"
+13-11-08-A, Q29,0,4, 1, "[4, 4, 5, 3, 5, 4, 5, 3, 4, 3, 5]", "[Riemann Sums, Limits, Functions, Continuity, Algebra, Integrals]"
+13-11-08-A, Q30,0,4, 0, "[4, 4, 5, 3, 5, 4, 5, 3, 4, 3, 5]", "[Coordinate Geometry, Exponentials, Inequalities, Integer Points, Functions]"
+13-11-08-B, Q1,1,2, 1, "[2, 3, 5, 1, 5, 3, 5, 2, 3, 2, 3]", "[Matrices, Matrix Addition, Arithmetic, Integer Operations]"
+13-11-08-B, Q2,1,2, 1, "[3, 4, 5, 2, 5, 4, 5, 3, 4, 2, 4]", "[Trigonometry, Tangent, Cosine, Double Angle Identity, Angles]"
+13-11-08-B, Q3,1,2, 1, "[4, 4, 5, 2, 5, 4, 5, 3, 4, 2, 4]", "[Coordinate Geometry, Section Formula, Ratios, Points, 3D Geometry]"
+13-11-08-B, Q4,1,3, 1, "[3, 4, 5, 2, 5, 4, 5, 3, 4, 2, 4]", "[Arithmetic Sequences, Terms, Equations, Linear Relationships]"
+13-11-08-B, Q5,1,3, 1, "[3, 4, 5, 2, 5, 4, 5, 3, 4, 2, 4]", "[Probability, Events, Complement, Union, Intersection]"
+13-11-08-B, Q6,1,3, 1, "[4, 4, 5, 2, 5, 4, 5, 3, 4, 2, 4]", "[Coordinate Geometry, Perpendicular Lines, Vectors, Equations of Lines]"
+13-11-08-B, Q7,1,3, 1, "[3, 4, 5, 2, 5, 4, 5, 3, 4, 2, 4]", "[Trigonometry, Cosine, Sine, Maximum Value, Function Optimization]"
+13-11-08-B, Q8,1,3, 0, "[4, 4, 5, 2, 5, 4, 5, 3, 4, 2, 4]", "[Coordinate Geometry, Parabola, Tangent Lines, Quadratic Equations, Intersection Points]"
+13-11-08-B, Q9,1,3, 0, "[3, 4, 5, 2, 5, 4, 5, 3, 4, 2, 4]", "[Combinatorics, Selection, Counting, Restrictions, Replacement]"
+13-11-08-B, Q10,1,3, 0, "[4, 4, 5, 2, 5, 4, 5, 3, 4, 2, 4]", "[Functions, Inequalities, Intersection Points, Rational Functions, Integer Solutions]"
+13-11-08-B, Q11,1,3, 0,  "[4, 4, 5, 2, 5, 4, 5, 3, 4, 2, 4]", "[Sequences, Logarithms, Recurrence Relations, General Terms, Algebraic Manipulation]"
+13-11-08-B, Q12,1,3, 0, "[4, 4, 5, 2, 5, 4, 5, 3, 4, 2, 4]", "[Functions, Continuity, Piecewise Functions, Quadratic Functions, Limits]"
+13-11-08-B, Q13,1,3, 0,  "[4, 4, 5, 2, 5, 4, 5, 3, 4, 2, 4]", "[Calculus, Volume, Rotation, Solid of Revolution, Hyperbolas]"
+13-11-08-B, Q14,1,4, 0, "[4, 4, 5, 2, 5, 4, 5, 3, 4, 2, 4]", "[Rotation, Trigonometry, Geometry, Hyperbolas, Focus, Transformation]"
+13-11-08-B, Q15,1,4, 1,  "[5, 5, 5, 3, 5, 5, 5, 3, 5, 2, 5]", "[Geometry, Limits, Sequences, Areas, Rectangles, Circular Sectors]"
+13-11-08-B, Q16,1,4, 1, "[5, 5, 5, 3, 5, 5, 5, 3, 5, 2, 5]", "[Probability, Probability Density Function, Random Variables, Expectations, Continuous Distributions]"
+13-11-08-B, Q17,1,4, 0, "[4, 5, 5, 3, 5, 5, 5, 3, 4, 2, 4]", "[Matrices, Linear Algebra, Matrix Operations, Matrix Inverse, Identity Matrix, Zero Matrix]"
+13-11-08-B, Q18,1,4, 1, "[5, 4, 5, 4, 5, 5, 5, 3, 5, 2, 5]", "[Trigonometric Functions, Limits, Intersections, Asymptotic Behavior]"
+13-11-08-B, Q19,1,4, 1, "[4, 4, 5, 3, 5, 4, 5, 4, 4, 3, 5]", "[Geometry, Sphere, Coordinate Geometry, Intersection, Radius]"
+13-11-08-B, Q20,1,4, 0, "[4, 4, 5, 3, 5, 4, 5, 4, 4, 3, 5]", "[Logarithms, Characteristic, Mantissa, Number Theory]"
+13-11-08-B, Q21,1,4, 0, "[4, 4, 5, 3, 5, 4, 5, 4, 4, 3, 5]", "[Integration, Continuous Functions, Symmetry, Calculus]"
+13-11-08-B, Q22,0,3, 1, "[2, 2, 5, 1, 5, 1, 5, 3, 3, 1, 3]", "[Derivatives, Exponential Functions, Calculus]"
+13-11-08-B, Q23,0,3, 1, "[2, 2, 5, 2, 5, 2, 5, 3, 3, 1, 3]", "[Probability, Combinatorics, Ratios]"
+13-11-08-B, Q24,0,3, 0, "[4, 4, 5, 3, 5, 3, 5, 4, 4, 3, 4]", "[Quadratic Equations, Algebra, Irrational Equations]"
+13-11-08-B, Q25,0,3, 0, "[4, 4, 5, 3, 5, 3, 5, 4, 4, 3, 4]", "[Fluid Dynamics, Logarithmic Equations, Algebra, Mathematical Modeling]"
+13-11-08-B, Q26,0,4, 0, "[4, 4, 5, 3, 5, 3, 5, 4, 4, 3, 4]", "[Statistics, Confidence Intervals, Proportions, Normal Distribution]"
+13-11-08-B, Q27,0,4, 0, "[4, 4, 5, 3, 5, 3, 5, 4, 4, 3, 4]", "[Conic Sections, Ellipses, Distance Formula, Coordinate Geometry]"
+13-11-08-B, Q28,0,4, 0, "[4, 4, 5, 3, 5, 3, 5, 4, 4, 3, 4]", "[Triangles, Geometry, Limits, Trigonometry]"
+13-11-08-B, Q29,0,4, 0, "[5, 5, 5, 3, 5, 3, 5, 4, 4, 2, 5]", "[Geometry, Vectors, 3D Geometry, Optimization]"
+13-11-08-B, Q30,0,4, 0, "[5, 5, 5, 3, 5, 3, 5, 4, 4, 2, 5]", "[Calculus, Quadratic Functions, Derivatives, Optimization]"14-11-15-A, Q1,,2,1,"[2,3,4,2,5,2,5,2,3,3, 3]", "[Exponents, Fractional Powers, Arithmetic Operations]"
+14-11-15-A, Q2,,2,1,"[2,2,4,2,5,2,5,2,2,2, 2]", "[Matrix Addition, Arithmetic Operations]",
+14-11-15-A, Q3,,2,1,"[3,4,4,3,5,2,5,3,3,3, 4]", "[Limits, Rational Functions, Calculus]"
+14-11-15-A, Q4,,3,1,"[3,3,3,2,4,3,5,3,3,3, 3]", "[Graph Theory, Adjacency Matrix, Discrete Mathematics]"
+14-11-15-A, Q5,,3,1,"[3,3,4,3,5,3,5,3,3,3, 4]", "[Sequences, Geometric Progression, Exponents]"
+14-11-15-A, Q6,,3,1,"[3,4,4,3,5,2,5,3,3,3, 4]", "[Definite Integrals, Algebraic Manipulation, Calculus]"
+14-11-15-A, Q7,,3,1,"[3,4,4,3,5,3,5,3,3,3, 4]", "[Binomial Expansion, Algebra, Exponents]"
+14-11-15-A, Q8,,3,0,"[3,4,4,3,5,2,5,3,3,3, 4]", "[Limits, Piecewise Functions, Calculus]"
+14-11-15-A, Q9,,3,1,"[3,3,4,3,5,3,5,3,3,3, 4]", "[Sequences, Series, Algebra]"
+14-11-15-A, Q10,,3,1,"[4,4,5,3,5,3,5,3,3,3, 4]", "[Logarithms, Algebra, Signal Processing]"
+14-11-15-A, Q11,,3,1,"[4,4,4,3,5,3,5,3,3,3, 4]", "[Geometric Series, Sequences, Series]"
+14-11-15-A, Q12,,3,1,"[4,3,5,3,5,3,5,3,3,3, 4]", "[Probability, Normal Distribution, Statistics]"
+14-11-15-A, Q13,,3,1,"[3,3,4,3,5,3,5,3,3,3, 4]", "[Matrices, Linear Algebra, Systems of Equations]"
+14-11-15-A, Q14,,4,0,"[4,4,4,3,5,3,5,3,3,3, 4]", "[Linear Equations, Graphing, Algebra]"
+14-11-15-A, Q15,,4,1,"[4,4,5,3,5,3,5,3,3,3, 4]", "[Exponential Inequalities, Algebra, Exponents]"
+14-11-15-A, Q16,,4,1,"[4,4,5,3,5,3,5,3,3,3, 4]", "[Probability, Conditional Probability, Set Theory]"
+14-11-15-A, Q17,,4,0,"[4,4,4,3,5,3,5,3,3,3, 4]", "[Arithmetic Sequences, Series, Algebra]"
+14-11-15-A, Q18,,4,1,"[4,3,5,3,5,3,5,3,3,3, 4]", "[Systems of Equations, Integer Solutions, Combinatorics]"
+14-11-15-A, Q19,,4,1,"[4,4,4,3,5,3,5,3,3,3, 4]", "[Matrix Operations, Linear Algebra, Matrix Inverses]"
+14-11-15-A, Q20,,4,0,"[4,4,5,3,5,3,5,3,3,3, 4]", "[Piecewise Functions, Integrals, Symmetry]"
+14-11-15-A, Q21,,4,0,"[4,5,5,3,5,3,5,3,3,3, 4]", "[Cubic Functions, Derivatives, Optimization]"
+14-11-15-A, Q22,,3,1,"[2,2,5,3,5,2,5,2,3,3, 3]", "[Limits, Algebra]",
+14-11-15-A, Q23,,3,1,"[3,4,5,3,5,3,5,3,3,3, 4]", "[Piecewise Functions, Continuity, Algebra]"
+14-11-15-A, Q24,,3,1,"[2,4,5,2,5,2,5,2,3,3, 3]", "[Series, Summation, Algebra]"
+14-11-15-A, Q25,,3,1,"[3,4,5,3,5,3,5,3,3,3, 4]", "[Binomial Distribution, Variance, Probability Theory]"
+14-11-15-A, Q26,,4,1,"[3,4,5,3,5,3,5,3,3,3, 4]", "[Differentiation, Integration, Polynomial Functions]"
+14-11-15-A, Q27,,4,1,"[3,3,5,3,4,3,5,3,3,3, 4]", "[Probability, Continuous Distributions, Integrals]"
+14-11-15-A, Q28,,4,0,"[5,4,5,4,4,4,5,4,5,3, 4]", "[Limits, Sequences, Series]"
+14-11-15-A, Q29,,4,1,"[4,3,5,3,4,3,5,3,3,3, 4]", "[Polynomials, Derivatives, Local Minima]"
+14-11-15-A, Q30,,4,1,"[4,4,5,3,4,3,5,3,4,3, 4]", "[Coordinate Geometry, Triangles, Inequalities]"
+14-11-15-B, Q1,,2,1,"[2,3,4,2,5,2,5,2,3,3, 3]", "[Matrix Addition]",,,
+14-11-15-B, Q2,,2,1,"[3,4,5,2,5,3,5,2,3,3, 4]", "[Limits, Logarithmic Functions]",,
+14-11-15-B, Q3,,2,1,"[3,4,5,2,5,3,5,2,3,3, 4]", "[Trigonometric Functions, Maximum and Minimum Values]",,
+14-11-15-B, Q4,,3,1,"[3,3,5,2,5,3,5,2,3,3, 3]", "[Integration, Power Functions]",,
+14-11-15-B, Q5,,3,1,"[4,4,5,3,5,4,5,2,3,3, 4]", "[Coordinate Geometry, Section Formula]",,
+14-11-15-B, Q6,,3,1,"[4,4,5,3,5,4,5,2,3,3, 4]", "[Matrix Multiplication, Linear Transformations]",,
+14-11-15-B, Q7,,3,1,"[4,4,5,3,5,3,5,2,3,3, 4]", "[Geometric Sequences, Series]",,
+14-11-15-B, Q8,,3,0,"[4,4,5,3,5,3,5,2,3,3, 4]", "[Probability, Set Theory]",,
+14-11-15-B, Q9,,3,1,"[5,4,5,2,5,4,5,2,3,3, 5]", "[Limits, Riemann Sums, Integration]",
+14-11-15-B, Q10,,3,1,"[5,4,5,3,5,4,5,2,3,3, 5]", "[Parabolas, Geometric Properties, Intersection Points]",
+14-11-15-B, Q11,,3,1,"[4,4,5,3,5,3,5,2,3,3, 4]", "[Probability, Normal Distribution]",,
+14-11-15-B, Q12,,3,1,"[5,4,5,3,5,4,5,2,3,3, 5]", "[Geometry, Perpendicular Distances, 3D Geometry]",
+14-11-15-B, Q13,,3,1,"[5,4,5,3,5,4,5,2,3,3, 5]", "[Exponential Functions, Limits]",,
+14-11-15-B, Q14,,4,1,"[5,4,5,3,5,4,5,2,3,3, 5]", "[Exponential Functions, Tangents, Geometry]",
+14-11-15-B, Q15,,4,0,"[5,4,5,3,5,3,5,2,3,3, 5]", "[Probability, Conditional Probability, Proportions]",
+14-11-15-B, Q16,,4,1,"[4,4,5,3,5,4,5,2,3,3, 4]", "[Matrix Algebra, Matrix Properties]",,
+14-11-15-B, Q17,,4,1,"[5,4,5,3,5,4,5,2,3,3, 5]", "[Sequences, Factorial Sequences, Recursions]",
+14-11-15-B, Q18,,4,1,"[4,4,5,3,5,3,5,2,3,3, 5]", "[Probability, Expected Value, Random Variables]",
+14-11-15-B, Q19,,4,1,"[5,4,5,3,5,4,5,2,3,3, 5]", "[3D Geometry, Dot Product, Perpendicularity]",
+14-11-15-B, Q20,,4,1,"[5,4,5,3,5,4,5,2,3,3, 5]", "[Geometry, Limits, Trigonometry, Circles]"
+14-11-15-B, Q21,,4,1,"[5,4,5,3,5,4,5,2,3,3, 5]", "[Geometry, Algebra, Coordinate Geometry, Area Inequalities]"
+14-11-15-B, Q22,,3,1,"[2,3,5,2,5,2,5,2,3,3, 3]", "[Logarithms, Exponentiation, Algebra]",
+14-11-15-B, Q23,,3,1,"[2,3,5,2,5,2,5,2,3,3, 3]", "[Differentiation, Functions, Exponentials]",
+14-11-15-B, Q24,,3,1,"[3,4,5,3,5,3,5,2,3,3, 5]", "[Radicals, Quadratic Equations, Solving Equations]",
+14-11-15-B, Q25,,3,1,"[3,4,4,2,5,3,5,2,3,3, 4]", "[Logarithmic Functions, Signal Processing, Ratios]",
+14-11-15-B, Q26,,4,1,"[4,3,5,3,4,3,5,2,3,4, 5]", "[Number Theory, Odd Numbers, Inequalities]",
+14-11-15-B, Q27,,4,1,"[4,3,5,4,3,4,5,3,4,5, 4]", "[Ellipses, Geometry, Trigonometry]",
+14-11-15-B, Q28,,4,1,"[4,4,5,3,4,4,5,3,5,4, 4]", "[Integrals, Exponential Functions, Area Calculation]",
+14-11-15-B, Q29,,4,1,"[4,4,4,2,4,5,5,3,4,4, 4]", "[Geometry, Spheres, Circles, Projection]"
+14-11-15-B, Q30,,4,1,"[4,5,4,3,5,4,4,5,3,4, 5]", "[Calculus, Differentiability, Absolute Functions]",
+15-11-13-A, Q1,,2,1,"[2,3,5,1,5,2,5,2,3,2, 3]", "[Matrix Operations, Arithmetic Operations]",,
+15-11-13-A, Q2,,2,1,"[2,3,5,1,5,2,5,2,3,2, 3]", "[Exponents, Fractional Powers, Arithmetic Operations]",
+15-11-13-A, Q3,,2,1,"[2,3,5,1,5,2,5,3,3,2, 3]", "[Limits, Rational Functions, Algebraic Simplification]",
+15-11-13-A, Q4,,3,1,"[3,3,5,2,5,3,5,2,4,3, 3]", "[Graph Theory, Adjacency Matrix, Combinatorics]",
+15-11-13-A, Q5,,3,0,"[2,3,5,1,5,2,5,2,3,2, 3]", "[Derivatives, Polynomial Functions, Calculus]",
+15-11-13-A, Q6,,3,1,"[2,3,5,1,5,2,5,2,3,2, 3]", "[Probability, Conditional Probability, Set Theory]",
+15-11-13-A, Q7,,3,1,"[4,4,5,2,5,3,5,3,4,3, 4]", "[Sequences, Geometric Sequences, Algebraic Manipulation]",
+15-11-13-A, Q8,,3,0,"[3,3,5,2,5,3,5,3,4,3, 3]", "[Limits, Piecewise Functions, Graph Interpretation]",
+15-11-13-A, Q9,,3,1,"[2,3,5,1,5,2,5,2,3,2, 3]", "[Statistics, Standard Deviation, Sampling Distribution]",
+15-11-13-A, Q10,,3,1,"[4,4,5,2,5,3,5,3,4,4, 4]", "[Sequences, Limits, Quadratic Functions, Asymptotic Behavior]"
+15-11-13-A, Q11,,3,1,"[4,4,5,2,5,3,5,3,4,3, 4]", "[Logarithmic Inequalities, Algebra, Inequality Solving]",
+15-11-13-A, Q12,,3,1,"[3,3,5,2,5,3,5,3,4,3, 4]", "[Probability, Normal Distribution, Z-scores]",
+15-11-13-A, Q13,,3,0,"[3,3,5,2,5,3,5,3,4,3, 3]", "[Area Under Curve, Integration, Graph Interpretation]",
+15-11-13-A, Q14,,4,1,"[3,3,5,2,5,3,5,3,4,3, 3]", "[Area Under Curve, Quadratic Functions, Integration]",
+15-11-13-A, Q15,,4,0,"[5,5,5,3,5,4,5,4,5,5, 5]", "[Geometry, Infinite Series, Area Calculation, Fractal Geometry]"
+15-11-13-A, Q16,,4,0,"[4,4,5,2,5,3,5,3,4,4, 4]", "[Exponential Functions, Financial Mathematics, Algebraic Manipulation]",
+15-11-13-A, Q17,,4,1,"[4,4,5,2,5,3,5,3,4,4, 4]", "[Combinatorics, Integer Partitions, Counting Problems]",
+15-11-13-A, Q18,,4,0,"[4,4,5,3,5,4,5,3,4,4, 4]", "[Matrix Algebra, Matrix Equations, Linear Algebra]",
+15-11-13-A, Q19,,4,0,"[5,5,5,3,5,4,5,3,5,5, 5]", "[Recursion, Sequences, Factorials, Algebraic Manipulation]"
+15-11-13-A, Q20,,4,1,"[4,4,5,2,5,3,5,3,4,4, 4]", "[Integration, Polynomial Functions, Odd and Even Functions, Fundamental Theorem of Calculus]"
+15-11-13-A, Q21,,4,0,"[5,5,5,3,5,4,5,3,4,4, 4]", "[Cubic Functions, Derivatives, Optimization, Differentiability]"
+15-11-13-A, Q22,,3,1,"[2,3,4,2,5,2,5,2,3,3, 3]", "[Arithmetic Sequences, Algebra, Sequence Properties]",
+15-11-13-A, Q23,,3,1,"[2,3,5,1,5,2,5,2,3,2, 3]", "[Limits, Exponential Functions, Asymptotic Behavior]",
+15-11-13-A, Q24,,3,1,"[4,4,5,2,5,3,5,3,4,4, 4]", "[Linear Algebra, Matrix Equations, System of Linear Equations]",
+15-11-13-A, Q25,,3,1,"[3,3,4,2,5,2,5,2,3,3, 3]", "[Probability, Expectation, Discrete Random Variables]",
+15-11-13-A, Q26,,4,1,"[3,3,5,2,5,3,5,3,3,3, 3]", "[Probability, Conditional Probability, Total Probability]",
+15-11-13-A, Q27,,4,0,"[4,4,5,2,5,3,5,3,4,4, 4]", "[Piecewise Functions, Continuity, Product of Functions, Limits]"
+15-11-13-A, Q28,,4,1,"[4,4,5,2,5,3,5,3,4,4, 4]", "[Limits, Polynomial Functions, Tangent Line, Derivatives]"
+15-11-13-A, Q29,,4,1,"[4,4,5,2,5,3,5,3,4,4, 4]", "[Quadratic Functions, Integrals, Absolute Value, Continuity]"
+15-11-13-A, Q30,,4,1,"[4,4,5,3,5,3,5,3,4,5, 5]", "[Logarithmic Functions, Linear Equations, Optimization, Geometry]"
+15-11-13-B, Q1,,2,1,"[2,3,5,2,5,2,5,3,3,2, 3]", "[Matrix Operations, Arithmetic Operations]",,
+15-11-13-B, Q2,,2,1,"[3,4,5,2,5,2,5,3,4,3, 4]", "[Limits, Logarithmic Functions, Trigonometric Functions]",
+15-11-13-B, Q3,,2,1,"[3,4,5,2,5,3,5,4,4,3, 4]", "[Coordinate Geometry, Centroid, Algebra]",
+15-11-13-B, Q4,,3,1,"[3,4,5,2,5,2,5,3,3,3, 4]", "[Integration, Logarithmic Functions]",,
+15-11-13-B, Q5,,3,1,"[3,4,5,2,5,3,5,3,4,3, 4]", "[Probability, Conditional Probability, Set Theory]",
+15-11-13-B, Q6,,3,1,"[3,4,5,2,5,3,5,3,4,3, 4]", "[Linear Transformations, Coordinate Geometry, Vectors]",
+15-11-13-B, Q7,,3,1,"[4,4,5,2,5,3,5,4,4,3, 4]", "[Differentiation, Exponential Functions, Geometry]",
+15-11-13-B, Q8,,3,1,"[3,4,5,2,5,3,5,3,4,3, 4]", "[Probability, Combinatorics]",,
+15-11-13-B, Q9,,3,0,"[5,4,5,3,5,4,5,4,5,3, 5]", "[Geometry, Conic Sections, Tangent Lines, Coordinate Geometry]"
+15-11-13-B, Q10,,3,1,"[4,4,5,3,5,4,5,4,5,3, 5]", "[Exponential Functions, Algebra, Growth Models]",
+15-11-13-B, Q11,,3,1,"[3,3,5,2,5,3,5,3,4,3, 4]", "[Piecewise Functions, Absolute Value Functions, Graph Analysis]",
+15-11-13-B, Q12,,3,0,"[3,3,5,2,5,3,5,3,4,3, 4]", "[Radical Equations, Algebra, Function Analysis]",
+15-11-13-B, Q13,,3,1,"[5,5,5,4,5,5,5,5,5,4, 5]", "[Geometric Sequences, Fractal Geometry, Infinite Series]",
+15-11-13-B, Q14,,4,1,"[2,3,5,2,5,3,5,3,4,3, 4]", "[Combinatorics, Integer Sequences, Inequalities]",
+15-11-13-B, Q15,,4,1,"[4,4,5,3,5,4,5,4,5,3, 5]", "[Coordinate Geometry, Parallelograms, Optimization]",
+15-11-13-B, Q16,,4,0,"[4,5,5,4,5,4,5,3,5,4, 5]", "[Matrix Algebra, Matrix Operations, System of Equations]",
+15-11-13-B, Q17,,4,0,"[5,5,5,5,5,5,5,5,5,5, 5]", "[Recurrence Relations, Sequences, Factorial Functions]",
+15-11-13-B, Q18,,4,1,"[4,5,5,4,5,4,5,3,4,4, 5]", "[Probability, Normal Distribution, Statistical Inference]",
+15-11-13-B, Q19,,4,0,"[5,5,5,3,5,4,5,3,5,4, 5]", "[Geometry, 3D Geometry, Distance and Projection]",
+15-11-13-B, Q20,,4,0,"[3,4,5,2,5,3,5,3,4,3, 4]", "[Logarithms, Number Theory, Properties of Functions]",
+15-11-13-B, Q21,,4,0,"[5,5,5,4,5,5,5,5,5,4, 5]", "[Differentiation, Polynomial Functions, Curve Intersections, Implicit Differentiation]"
+15-11-13-B, Q22,,3,1,"[2,3,5,2,5,3,5,3,4,3, 4]", "[Arithmetic Sequences, Algebra, Sequences and Series]",
+15-11-13-B, Q23,,3,1,"[2,3,5,1,5,2,5,3,5,2, 5]", "[Trigonometric Functions, Derivatives, Basic Differentiation]",
+15-11-13-B, Q24,,3,1,"[5,5,5,2,5,3,5,3,5,3, 5]", "[Probability, Integration, Continuous Distributions]",
+15-11-13-B, Q25,,3,1,"[5,5,5,3,5,3,5,3,5,3, 5]", "[Geometric Sequences, Limits, Series Convergence]",
+15-11-13-B, Q26,,4,0,"[5,5,5,3,5,4,5,3,5,3, 5]", "[Ellipses, Geometry, Coordinate Geometry, Pythagorean Theorem]"
+15-11-13-B, Q27,,4,1,"[5,4,5,3,5,4,5,2,5,4, 5]", "[Coordinate Geometry, 3D Geometry, Distance Formula]",
+15-11-13-B, Q28,,4,0,"[4,4,5,4,5,3,5,4,5,3, 5]", "[Calculus, Geometry, Limits]",
+15-11-13-B, Q29,,4,0,"[5,4,5,4,5,3,5,4,5,3, 5]", "[Vectors, Geometry, Trigonometry]",
+15-11-13-B, Q30,,4,0,"[4,5,5,4,4,4,5,4,5,4, 5]", "[Calculus, Definite Integrals, Function Analysis]",
+16-11-19-A, Q1,,2,1,"[2,3,5,1,5,1,5,2,3,2, 2]", "[Exponents, Arithmetic Operations]",,
+16-11-19-A, Q2,,2,1,"[2,3,5,1,5,1,5,2,3,2, 2]", "[Set Theory, Union of Sets]",,
+16-11-19-A, Q3,,2,1,"[2,3,5,1,5,1,5,2,3,2, 2]", "[Logarithms, Properties of Logarithms]",,
+16-11-19-A, Q4,,3,1,"[3,3,5,2,5,2,5,3,4,3, 3]", "[Probability, Set Theory, Complementary Events]",
+16-11-19-A, Q5,,3,1,"[3,4,5,2,5,2,5,4,3,3, 3]", "[Geometric Sequences, Algebra]",,
+16-11-19-A, Q6,,3,1,"[3,4,5,2,5,2,5,3,3,3, 3]", "[Functions, Inverse Functions]",,
+16-11-19-A, Q7,,3,1,"[3,4,5,2,5,2,5,3,3,3, 3]", "[Absolute Value Inequalities, Set Theory]",,
+16-11-19-A, Q8,,3,1,"[3,4,5,2,5,2,5,3,3,3, 3]", "[Limits, Piecewise Functions]",,
+16-11-19-A, Q9,,3,1,"[3,3,5,2,5,2,5,3,3,3, 4]", "[Calculus, Definite Integrals]",,
+16-11-19-A, Q10,,3,1,"[3,4,5,2,5,2,5,3,3,3, 3]", "[Functions, Symmetry, Transformations]",
+16-11-19-A, Q11,,3,1,"[3,3,5,2,5,2,5,3,3,3, 3]", "[Probability, Combinatorics, Binomial Distribution]",
+16-11-19-A, Q12,,3,1,"[3,3,5,2,5,2,5,3,3,3, 4]", "[Calculus, Velocity, Distance Traveled]",
+16-11-19-A, Q13,,3,1,"[3,4,5,2,5,2,5,3,3,3, 3]", "[Probability, Set Theory, Conditional Probability]",
+16-11-19-A, Q14,,4,1,"[4,5,5,3,5,3,5,4,4,4, 4]", "[Piecewise Functions, Continuity, Algebra]",
+16-11-19-A, Q15,,4,1,"[4,4,5,3,5,3,5,4,4,4, 4]", "[Arithmetic Sequences, Algebra, Equations]",
+16-11-19-A, Q16,,4,1,"[4,4,5,3,5,3,5,4,4,4, 5]", "[Statistics, Confidence Intervals, Normal Distribution]",
+16-11-19-A, Q17,,4,1,"[5,5,5,4,5,4,5,5,4,4, 5]", "[Geometry, Convergence, Infinite Series]",
+16-11-19-A, Q18,,4,1,"[5,5,5,3,5,3,5,4,4,4, 4]", "[Quadratic Functions, Limits, Algebra]",
+16-11-19-A, Q19,,4,1,"[5,5,5,4,5,3,5,4,4,4, 5]", "[Combinatorics, Probability, Expected Value]",
+16-11-19-A, Q20,,4,1,"[5,5,5,4,5,3,5,4,4,4, 4]", "[Calculus, Critical Points, Integrals, Properties of Functions]"
+16-11-19-A, Q21,,4,1,"[5,5,5,4,5,4,5,4,4,4, 5]", "[Piecewise Functions, Geometry, Lattice Points, Sum Calculations]"
+16-11-19-A, Q22,,3,1,"[2,2,4,1,5,2,5,2,3,3, 2]", "[Permutations, Combinations, Basic Arithmetic]",
+16-11-19-A, Q23,,3,1,"[2,3,4,1,5,2,5,2,3,3, 3]", "[Calculus, Derivatives, Polynomial Functions]",
+16-11-19-A, Q24,,3,1,"[3,3,4,2,5,2,5,3,3,3, 3]", "[Set Theory, Complement of a Set, Basic Algebra]",
+16-11-19-A, Q25,,3,1,"[3,3,4,2,5,3,5,3,3,3, 3]", "[Functions, Sequences, Summation]",
+16-11-19-A, Q26,,4,1,"[4,4,5,3,5,3,5,4,4,4, 4]", "[Calculus, Derivatives, Geometry of Curves]",
+16-11-19-A, Q27,,4,1,"[4,4,5,3,5,3,5,4,4,4, 4]", "[Combinatorics, Number Theory, Integer Solutions]",
+16-11-19-A, Q28,,4,1,"[4,5,5,4,5,4,5,4,4,4, 4]", "[Limits, Exponential and Radical Functions, Sequences]",
+16-11-19-A, Q29,,4,1,"[4,5,5,4,5,4,5,4,5,4, 4]", "[Normal Distribution, Probability Density, Standard Scores]",
+16-11-19-A, Q30,,4,1,"[5,5,5,4,5,5,5,4,5,4, 5]", "[Inverse Functions, Differentiation, Polynomial Equations, Maximum and Minimum Values]"
+16-11-19-B, Q1,,2,1,"[2,3,5,1,5,2,5,3,4,2, 2]", "[Vector Operations, Arithmetic Operations]",,
+16-11-19-B, Q2,,2,0,"[3,3,5,2,5,3,5,4,3,3, 4]", "[Limits, Exponential Functions]",,
+16-11-19-B, Q3,,2,1,"[2,3,5,1,5,2,5,3,4,2, 3]", "[Integrals, Trigonometric Functions]",,
+16-11-19-B, Q4,,3,1,"[3,4,5,2,5,3,5,4,4,3, 3]", "[Probability Theory, Conditional Probability]",,
+16-11-19-B, Q5,,3,1,"[2,3,5,2,5,2,5,3,4,2, 2]", "[Combinatorics, Number Theory]",,
+16-11-19-B, Q6,,3,1,"[4,4,5,3,5,3,5,4,4,4, 5]", "[Functions, Inverse Functions, Derivatives]",
+16-11-19-B, Q7,,3,1,"[3,3,5,2,5,3,5,4,4,3, 3]", "[Probability Theory, Combinatorics]",,
+16-11-19-B, Q8,,3,0,"[4,4,5,3,5,3,5,4,4,4, 4]", "[Coordinate Geometry, Ratio, Line Segments]",
+16-11-19-B, Q9,,3,1,"[3,3,5,2,5,3,5,4,3,3, 4]", "[Integrals, Logarithmic Functions]",,
+16-11-19-B, Q10,,3,1,"[4,4,5,3,5,3,5,4,4,4, 4]", "[Motion, Derivatives, Parametric Equations]",
+16-11-19-B, Q11,,3,1,"[4,4,5,3,5,4,5,4,4,3, 5]", "[Calculus, Volume, Solids of Revolution]",
+16-11-19-B, Q12,,3,1,"[4,4,5,3,5,3,5,4,4,4, 4]", "[Vectors, Planes, Trigonometry]",
+16-11-19-B, Q13,,3,1,"[5,4,5,3,5,3,5,4,4,3, 4]", "[Probability Theory, Normal Distribution, Statistics]",
+16-11-19-B, Q14,,4,1,"[5,4,5,4,5,3,5,4,5,4, 5]", "[Geometry, Limits, Trigonometry]",
+16-11-19-B, Q15,,4,1,"[5,4,5,3,5,3,5,4,5,4, 5]", "[Calculus, Derivatives, Geometry, Optimization]"
+16-11-19-B, Q16,,4,1,"[5,4,5,3,5,3,5,4,5,4, 5]", "[Vectors, Dot Product, Distance, Geometry]"
+16-11-19-B, Q17,,4,1,"[5,5,5,3,5,3,5,4,4,3, 4]", "[Combinatorics, Probability Theory, Expectation, Random Variables]"
+16-11-19-B, Q18,,4,1,"[5,5,5,3,5,3,5,4,4,3, 5]", "[Normal Distribution, Probability Theory, Z-scores, Statistics]"
+16-11-19-B, Q19,,4,1,"[5,5,5,4,5,3,5,4,4,3, 5]", "[Conic Sections, Geometry, Tangent Lines, Ellipse]"
+16-11-19-B, Q20,,4,1,"[5,4,5,4,5,3,5,4,4,3, 5]", "[Calculus, Integrals, Derivatives, Analysis]"
+16-11-19-B, Q21,,4,1,"[5,4,5,3,5,3,5,4,4,3, 5]", "[Calculus, Integrals, Analysis]",
+16-11-19-B, Q22,,3,1,"[2,2,5,1,5,1,5,2,2,1, 2]", "[Mathematical Constants, Harmonic Numbers]",,
+16-11-19-B, Q23,,3,1,"[3,3,5,2,5,2,5,3,3,3, 3]", "[Inequalities, Exponents, Algebra]",
+16-11-19-B, Q24,,3,1,"[5,4,5,3,5,3,5,4,4,3, 5]", "[Geometry, Tangency, Planes, Spheres]"
+16-11-19-B, Q25,,3,1,"[5,4,5,3,5,3,5,4,4,3, 5]", "[Trigonometry, Equations, Solutions]",
+16-11-19-B, Q26,,4,1,"[5,5,5,4,5,3,5,4,4,3, 5]", "[Probability, Combinatorics, Card Draws]",
+16-11-19-B, Q27,,4,1,"[5,4,5,3,5,3,5,4,4,3, 5]", "[Number Theory, Modular Arithmetic, Divisibility, Combinatorics]"
+16-11-19-B, Q28,,4,1,"[5,4,5,3,5,4,5,4,4,3, 5]", "[Conic Sections, Hyperbolas, Geometry]",
+16-11-19-B, Q29,,4,1,"[5,4,5,3,5,4,5,4,4,3, 5]", "[Vectors, Geometry, 3D Geometry]",
+16-11-19-B, Q30,,4,1,"[4,3,4,3,4,4,5,4,4,4, 3]", "[Functions, Local Extrema, Optimization]",
+17-11-24-A, Q1,,2,1,"[2,2,5,1,5,2,5,2,3,2, 2]", "[Exponents, Fractional Powers, Arithmetic Operations]",,
+17-11-24-A, Q2,,2,1,"[2,3,5,2,5,2,5,3,3,2, 3]", "[Set Theory, Algebra]",,,
+17-11-24-A, Q3,,2,1,"[3,3,5,2,5,2,5,2,3,3, 3]", "[Limits, Exponents, Arithmetic Operations]",,
+17-11-24-A, Q4,,3,0,"[3,3,5,2,5,2,5,3,3,3, 3]", "[Function Composition, Functions]",,,
+17-11-24-A, Q5,,3,1,"[4,4,5,2,5,3,5,4,3,3, 3]", "[Limits, Functions, Graph Analysis]",,
+17-11-24-A, Q6,,3,1,"[4,4,5,3,5,3,5,4,4,3, 4]", "[Algebra, Inequalities, Set Theory]",,
+17-11-24-A, Q7,,3,1,"[4,4,5,3,5,3,5,3,4,3, 4]", "[Probability, Set Theory, Conditional Probability]",,
+17-11-24-A, Q8,,3,0,"[4,4,5,3,5,3,5,4,4,4, 4]", "[Combinatorics, Partition Theory]",,,
+17-11-24-A, Q9,,3,1,"[4,4,5,3,5,3,5,4,4,3, 4]", "[Calculus, Integration, Algebra]",,
+17-11-24-A, Q10,,3,1,"[4,4,5,3,5,3,5,4,4,3, 4]", "[Probability, Set Theory, Conditional Probability]",,
+17-11-24-A, Q11,,3,0,"[4,4,5,3,5,4,5,3,4,3, 4]", "[Coordinate Geometry, Integer Solutions, Functions]",,
+17-11-24-A, Q12,,3,1,"[4,4,5,3,5,3,5,4,4,3, 4]", "[Binomial Theorem, Algebra, Exponents]",,
+17-11-24-A, Q13,,3,1,"[4,4,5,3,5,3,5,4,4,3, 4]", "[Recursion, Sequences, Mathematical Induction]",,
+17-11-24-A, Q14,,4,1,"[4,4,5,3,5,3,5,4,4,4, 4]", "[Sequences, Arithmetic Sequences, Algebra]",,
+17-11-24-A, Q15,,4,1,"[4,4,5,4,5,3,5,4,4,3, 4]", "[Statistics, Normal Distribution, Probability]",,
+17-11-24-A, Q16,,4,0,"[4,4,5,3,5,3,5,4,4,3, 4]", "[Logarithms, Algebra]",,,
+17-11-24-A, Q17,,4,1,"[5,5,5,4,5,4,5,5,5,4, 5]", "[Probability, Expectation, Variance, Transformations of Random Variables]",
+17-11-24-A, Q18,,4,0,"[5,5,5,4,5,4,5,5,5,4, 5]", "[Calculus, Limits, Derivatives, Cubic Functions]",
+17-11-24-A, Q19,,4,0,"[5,5,5,4,5,4,5,5,5,4, 5]", "[Geometric Sequences, Limits, Geometry, Fractals]",
+17-11-24-A, Q20,,4,0,"[5,5,5,4,5,4,5,5,5,4, 5]", "[Calculus, Derivatives, Critical Points, Functions, Local Extrema]"
+17-11-24-A, Q21,,4,0,"[5,5,5,4,5,4,5,5,5,4, 5]", "[Functions, Composition of Functions, Graph Analysis, Interval Analysis]",
+17-11-24-A, Q22,,3,1,"[2,1,5,1,5,1,5,1,2,1, 1]", "[Combinatorics, Binomial Coefficients]",,,
+17-11-24-A, Q23,,3,1,"[2,2,5,1,5,2,5,1,2,1, 1]", "[Calculus, Derivatives, Polynomial Functions]",,
+17-11-24-A, Q24,,3,1,"[2,3,5,2,5,2,5,2,3,2, 2]", "[Set Theory, Operations on Sets, Complementation]",,
+17-11-24-A, Q25,,3,1,"[3,3,5,2,5,3,5,2,3,3, 2]", "[Calculus, Limits, Function Behavior, Continuity]",
+17-11-24-A, Q26,,4,1,"[4,4,5,3,5,3,5,4,4,3, 5]", "[Calculus, Area Between Curves, Integration]",,
+17-11-24-A, Q27,,4,1,"[4,4,5,3,5,3,5,4,4,3, 5]", "[Sequences, Summation, Algebraic Manipulation]",,
+17-11-24-A, Q28,,4,1,"[4,3,5,3,5,2,5,2,4,3, 5]", "[Probability, Binomial Distribution, Coin Flipping]",,
+17-11-24-A, Q29,,4,0,"[5,4,4,4,5,4,5,5,3,4, 5]", "[Piecewise Functions, Differentiability, Inequalities]",,
+17-11-24-A, Q30,,4,0,"[5,5,5,4,5,5,4,5,5, 5]", "[Piecewise Functions, Calculus, Sequences]",,,
+17-11-24-B, Q1,,2,1,"[2,3,5,2,5,1,5,2,3,1, 2]", "[Vector Addition, Arithmetic Operations]",,
+17-11-24-B, Q2,,2,1,"[4,4,5,3,5,3,5,4,4,3, 4]", "[Limits, Logarithmic Functions, Exponential Functions]",
+17-11-24-B, Q3,,2,1,"[3,4,5,3,5,2,5,3,3,2, 3]", "[Coordinate Geometry, Section Formula]",,
+17-11-24-B, Q4,,3,1,"[3,3,5,3,5,2,5,3,3,2, 3]", "[Probability, Set Theory]",,
+17-11-24-B, Q5,,3,1,"[3,4,5,3,5,3,5,4,4,2, 4]", "[Functions, Exponential Functions, Optimization]",
+17-11-24-B, Q6,,3,1,"[4,3,5,3,5,3,5,4,3,2, 4]", "[Binomial Theorem, Polynomial Expansion]",,
+17-11-24-B, Q7,,3,1,"[4,4,5,3,5,3,5,3,4,3, 4]", "[Trigonometric Equations, Algebraic Manipulation]",,
+17-11-24-B, Q8,,3,1,"[4,4,5,3,5,3,5,4,4,3, 4]", "[Ellipses, Conic Sections, Geometry]",
+17-11-24-B, Q9,,3,1,"[4,4,5,3,5,3,5,4,4,3, 4]", "[Differentiation, Limits, Quotient Rule]",
+17-11-24-B, Q10,,3,1,"[3,3,5,4,5,3,5,4,4,2, 4]", "[Probability, Normal Distribution, Central Limit Theorem]",
+17-11-24-B, Q11,,3,1,"[4,4,5,3,5,3,5,4,4,3, 4]", "[Inverse Functions, Differentiation, Product Rule]",
+17-11-24-B, Q12,,3,0,"[5,4,5,4,5,4,5,5,4,3, 5]", "[Definite Integrals, Area between Curves, Exponential Functions]",
+17-11-24-B, Q13,,3,1,"[3,3,5,3,5,2,5,3,3,2, 3]", "[Probability, Combinatorics, Conditional Probability]",
+17-11-24-B, Q14,,4,0,"[5,4,5,4,5,4,5,5,4,3, 5]", "[Trigonometry, Geometry, Vectors]",
+17-11-24-B, Q15,,4,0,"[5,4,5,3,5,3,5,5,4,3, 5]", "[Integration, Composite Functions, Logarithmic Functions]",
+17-11-24-B, Q16,,4,1,"[5,4,5,3,5,3,5,4,4,3, 5]", "[Parametric Equations, Velocity, Trigonometry]",
+17-11-24-B, Q17,,4,0,"[5,5,5,4,5,4,5,5,4,3, 5]", "[Geometry, Limits, Trigonometry]",
+17-11-24-B, Q18,,4,0,"[4,3,5,3,5,2,5,4,4,2, 4]", "[Combinatorics, Counting Principles]",,
+17-11-24-B, Q19,,4,0,"[5,5,5,4,5,3,5,5,4,3, 5]", "[Probability, Combinatorics, Random Variables]",
+17-11-24-B, Q20,,4,1,"[5,5,5,4,5,4,5,5,4,3, 5]", "[Geometry, Planes, Distance in 3D Space]",
+17-11-24-B, Q21,,4,0,"[5,4,5,4,5,3,5,5,4,3, 5]", "[Piecewise Functions, Differentiation, Optimization]",
+17-11-24-B, Q22,,3,0,"[1,1,5,1,5,1,5,1,1,1, 5]", "[Combinatorics, Binomial Coefficients]",,
+17-11-24-B, Q23,,3,1,"[2,3,5,1,5,1,5,4,1,3, 5]", "[Differentiation, Logarithmic Functions]",,
+17-11-24-B, Q24,,3,0,"[4,4,5,2,5,2,5,4,3,3, 5]", "[Implicit Differentiation, Tangent Lines]",,
+17-11-24-B, Q25,,3,1,"[3,3,5,2,5,3,5,4,3,3, 5]", "[Coordinate Geometry, Line Equation, Perpendicular Vectors]",
+17-11-24-B, Q26,,4,0,"[5,5,5,3,5,3,5,5,4,4, 5]", "[Probability, Normal Distribution, Z-Scores]",
+17-11-24-B, Q27,,4,0,"[4,5,5,3,5,3,5,5,4,4, 5]", "[Conic Sections, Hyperbolas, Geometry, Tangents]"
+17-11-24-B, Q28,,4,0,"[5,4,5,2,5,4,5,4,4,5, 4]", "[Combinatorics, Probability, Algebra, Polynomials]"
+17-11-24-B, Q29,,4,0,"[4,3,5,3,5,4,5,3,4,3, 3]", "[Geometry, Analytical Geometry, Trigonometry]",
+17-11-24-B, Q30,,4,0,"[4,5,5,4,5,4,5,3,4,4, 3]", "[Calculus, Integrals, Trigonometry, Piecewise Functions]"
+18-11-16-A, Q1,,2,1,"[2,2,4,1,5,2,5,2,3,3, 3]", "[Exponents, Fractional Powers, Multiplication]",,
+18-11-16-A, Q2,,2,1,"[2,2,4,1,5,2,5,2,3,3, 3]", "[Set Theory, Set Difference]",,,
+18-11-16-A, Q3,,2,1,"[3,3,5,2,5,3,5,3,4,3, 4]", "[Limits, Rational Functions]",,,
+18-11-16-A, Q4,,3,0,"[3,3,4,3,4,3,5,3,4,3, 4]", "[Function Composition, Function Evaluation]",,,
+18-11-16-A, Q5,,3,1,"[3,3,4,3,5,3,5,3,4,3, 4]", "[Arithmetic Sequences, Sequence Terms]",,,
+18-11-16-A, Q6,,3,1,"[3,3,5,3,5,3,5,3,4,3, 4]", "[Binomial Theorem, Polynomial Expansion, Coefficients]",,
+18-11-16-A, Q7,,3,1,"[3,3,4,3,4,3,5,3,4,3, 4]", "[Limits, Left-Hand Limits, Right-Hand Limits, Function Graph Interpretation]",
+18-11-16-A, Q8,,3,1,"[3,4,5,3,5,3,5,3,4,3, 4]", "[Probability, Mutually Exclusive Events, Complements, Intersection of Events]",
+18-11-16-A, Q9,,3,1,"[4,4,5,3,5,3,5,3,4,3, 4]", "[Derivatives, Maxima and Minima, Polynomial Functions]",,
+18-11-16-A, Q10,,3,0,"[4,4,5,3,5,3,5,3,4,3, 4]", "[Probability, Probability Density Function, Integration]",,
+18-11-16-A, Q11,,3,1,"[4,4,5,3,5,3,5,3,4,3, 4]", "[Inequalities, Logical Implications, Quadratic Inequality]",,
+18-11-16-A, Q12,,3,0,"[4,4,5,3,5,3,5,3,4,3, 4]", "[Statistics, Confidence Interval, Normal Distribution, Z-Scores]",
+18-11-16-A, Q13,,3,1,"[4,4,5,3,5,3,5,3,4,3, 4]", "[Recurrence Relations, Sequences, Summation]",,
+18-11-16-A, Q14,,4,0,"[4,4,5,3,5,3,5,3,4,3, 4]", "[Calculus, Derivatives, Fundamental Theorem of Calculus, Integration]",
+18-11-16-A, Q15,,4,1,"[4,4,5,3,5,3,5,3,4,3, 4]", "[Logarithms, Natural Numbers, Exponents]",,
+18-11-16-A, Q16,,4,1,"[5,5,5,4,5,3,5,3,4,3, 4]", "[Geometry, Limits, Circles, Areas, Infinite Series]"
+18-11-16-A, Q17,,4,1,"[5,5,5,4,5,3,5,3,4,3, 4]", "[Calculus, Integration, Periodic Functions, Area under Curves]",
+18-11-16-A, Q18,,4,1,"[5,5,5,4,5,3,5,3,4,3, 4]", "[Probability, Random Walk, Conditional Probability]",,
+18-11-16-A, Q19,,4,1,"[5,5,5,4,5,3,5,3,4,3, 4]", "[Combinatorics, Functions, Set Theory, Counting Principles]",
+18-11-16-A, Q20,,4,1,"[5,5,5,4,5,3,5,3,4,3, 4]", "[Functions, Asymptotes, Intersections, Geometry, Coordinate Geometry]"
+18-11-16-A, Q21,,4,1,"[5,5,5,4,5,3,5,3,4,3, 4]", "[Functions, Cubic Functions, Continuous Functions, Equations, Algebra]"
+18-11-16-A, Q22,,3,1,"[3,3,5,2,5,2,5,2,3,3, 3]", "[Permutations, Combinations, Basic Counting Principles]",,
+18-11-16-A, Q23,,3,1,"[3,3,5,2,5,2,5,2,3,3, 3]", "[Calculus, Derivatives, Polynomial Functions]",,
+18-11-16-A, Q24,,3,1,"[4,4,4,3,5,3,5,3,4,3, 4]", "[Geometric Sequences, Series, Algebra]",,
+18-11-16-A, Q25,,3,1,"[4,4,4,3,5,3,5,3,4,3, 4]", "[Calculus, Integration, Absolute Value Functions]",,
+18-11-16-A, Q26,,4,1,"[5,5,5,4,5,3,5,3,4,3, 4]", "[Functions, Graphs, Intersection, Algebra, Square Roots]"
+18-11-16-A, Q27,,4,1,"[4,4,5,3,5,3,5,3,4,3, 4]", "[Kinematics, Calculus, Acceleration, Derivatives, Polynomials]"
+18-11-16-A, Q28,,4,0,"[5,5,5,3,5,3,5,3,4,3, 4]", "[Probability, Combinatorics, Permutations, Arrangements]",
+18-11-16-A, Q29,,4,1,"[4,5,5,3,5,3,5,3,5,3, 5]", "[Sequences, Arithmetic Sequences, Geometric Sequences, Absolute Value]",
+18-11-16-A, Q30,,4,1,"[4,4,4,3,4,3,5,3,5,3, 5]", "[Cubic Functions, Quadratic Functions, Tangents, Slopes, Inequalities]"
+18-11-16-B, Q1,,2,1,"[2,3,4,1,5,2,5,2,3,3, 2]", "[Vectors, Arithmetic Operations, Scalar Multiplication]",,
+18-11-16-B, Q2,,2,1,"[4,5,5,2,5,3,5,4,4,4, 4]", "[Limits, Calculus, L'Hôpital's Rule, Algebraic Manipulation]",
+18-11-16-B, Q3,,2,1,"[3,4,5,2,5,3,5,3,3,3, 3]", "[Coordinate Geometry, Section Formula, Algebra]",,
+18-11-16-B, Q4,,3,1,"[3,3,5,2,5,3,5,3,4,3, 3]", "[Probability, Set Theory, Complementary Events]",,
+18-11-16-B, Q5,,3,1,"[5,4,5,3,5,4,5,4,4,4, 5]", "[Exponential Functions, Logarithmic Functions, Transformations, Symmetry]",
+18-11-16-B, Q6,,3,1,"[4,4,5,2,5,3,5,3,4,4, 4]", "[Conic Sections, Parabolas, Distance Formula, Geometry]",
+18-11-16-B, Q7,,3,0,"[4,5,5,2,5,3,5,3,4,4, 4]", "[Differentiation, Exponential Functions, Tangent Line, Calculus]",
+18-11-16-B, Q8,,3,1,"[4,4,5,2,5,3,5,3,4,4, 4]", "[Probability, Binomial Distribution, Variance, Expectation]",
+18-11-16-B, Q9,,3,1,"[5,5,5,2,5,3,5,4,4,4, 4]", "[Inverse Functions, Derivatives, Exponential Functions, Calculus]",
+18-11-16-B, Q10,,3,1,"[4,4,5,2,5,3,5,3,4,4, 4]", "[Probability, Number Theory, Combinatorics]",,
+18-11-16-B, Q11,,3,0,"[5,4,5,3,5,4,5,4,4,4, 5]", "[Quadratic Equations, Trigonometry, Discriminant, Inequalities]",
+18-11-16-B, Q12,,3,1,"[4,4,5,3,5,3,5,3,4,4, 4]", "[Combinatorics, Permutations, Distributions, Inequalities]",
+18-11-16-B, Q13,,3,0,"[4,4,5,2,5,3,5,3,4,4, 4]", "[Coordinate Geometry, Planes, Intersection, Parametric Equations]",
+18-11-16-B, Q14,,4,0,"[5,4,5,3,5,4,5,4,4,4, 4]", "[Quadratic Functions, Inequalities, Exponents, Algebra]",
+18-11-16-B, Q15,,4,1,"[4,4,5,2,5,3,5,3,4,4, 4]", "[Probability, Normal Distribution, Conditional Probability, Z-Score]",
+18-11-16-B, Q16,,4,1,"[5,5,5,3,5,4,5,4,4,4, 5]", "[Functional Equations, Integrals, Substitution, Calculus]",
+18-11-16-B, Q17,,4,1,"[5,5,5,3,5,4,5,4,4,4, 5]", "[Combinatorics, Functions, Counting Principles, Set Theory]",
+18-11-16-B, Q18,,4,1,"[5,4,5,3,5,4,5,4,4,4, 5]", "[Geometry, Limits, Trigonometry, Area Calculation]",
+18-11-16-B, Q19,,4,0,"[5,5,5,3,5,4,5,4,4,4, 5]", "[3D Geometry, Tetrahedron, Perpendiculars, Area Calculation]",
+18-11-16-B, Q20,,4,0,"[5,5,5,3,5,4,5,4,4,4, 5]", "[Trigonometry, Tangent Line, Curve Analysis, Inequalities]",
+18-11-16-B, Q21,,4,1,"[5,5,5,3,5,4,5,4,4,4, 5]", "[Differentiation, Functional Equations, Calculus, Substitution]",
+18-11-16-B, Q22,,3,1,"[2,1,5,1,5,2,5,1,3,3, 3]", "[Permutations, Combinations, Basic Algebra]",,
+18-11-16-B, Q23,,3,1,"[2,1,5,1,5,2,5,1,3,3, 3]", "[Trigonometry, Secant, Tangent, Algebra]",
+18-11-16-B, Q24,,3,1,"[4,4,5,2,5,3,5,3,4,4, 4]", "[Parametric Equations, Acceleration, Velocity, Trigonometry]",
+18-11-16-B, Q25,,3,1,"[4,3,5,2,5,3,5,3,4,4, 4]", "[Integration, Trigonometry, Substitution, Algebra]",
+18-11-16-B, Q26,,4,1,"[5,5,5,3,5,4,5,4,4,4, 5]", "[Statistics, Confidence Interval, Normal Distribution, Sample Mean]",
+18-11-16-B, Q27,,4,1,"[5,5,5,3,5,4,5,4,4,4, 5]", "[Probability, Independence, Divisors, Dice]",
+18-11-16-B, Q28,,4,1,"[5,5,5,3,5,4,5,4,4,4, 5]", "[Ellipses, Geometry, Distance, Circle, Intersections]"
+18-11-16-B, Q29,,4,0,"[5,5,5,3,5,4,5,4,4,4, 5]", "[Vector Geometry, Triangles, Area, Coordinates, Linear Combinations]"
+18-11-16-B, Q30,,4,1,"[5,5,5,3,4,4,5,4,4,4, 5]", "[Cubic Functions, Derivatives, Trigonometric Functions, Optimization, Algebra]"
+19-11-15-A, Q1,,2,1,"[3,2,5,1,5,2,5,2,4,2, 3]", "[Vector Operations, Linear Algebra]",
+19-11-15-A, Q2,,2,1,"[4,4,5,2,5,2,5,3,5,2, 4]", "[Limits, Calculus]",
+19-11-15-A, Q3,,2,1,"[4,3,5,3,5,3,5,3,5,2, 4]", "[Coordinate Geometry, Distance Formula]",
+19-11-15-A, Q4,,3,1,"[3,3,5,2,5,2,5,3,4,3, 4]", "[Polynomial Expansions, Binomial Theorem]",
+19-11-15-A, Q5,,3,1,"[4,4,5,3,5,3,5,3,5,2, 4]", "[Implicit Differentiation, Calculus]",
+19-11-15-A, Q6,,3,1,"[3,3,5,2,5,3,5,3,4,3, 3]", "[Probability, Combinatorics]",
+19-11-15-A, Q7,,3,1,"[4,4,5,3,5,3,5,4,5,3, 4]", "[Trigonometric Equations, Inequalities]",
+19-11-15-A, Q8,,3,0,"[4,4,5,3,5,2,5,3,5,3, 4]", "[Definite Integrals, Calculus]",
+19-11-15-A, Q9,,3,1,"[4,4,5,3,5,3,5,3,5,2, 4]", "[Parametric Equations, Calculus]",
+19-11-15-A, Q10,,3,0,"[4,4,5,3,5,3,5,3,5,2, 4]", "[Trigonometry, Geometry]",
+19-11-15-A, Q11,,3,0,"[4,3,5,3,5,3,5,3,4,3, 4]", "[Differentiation, Calculus]",
+19-11-15-A, Q12,,3,1,"[5,5,5,3,5,4,5,4,5,2, 4]", "[Integration, Volume of Solids]",
+19-11-15-A, Q13,,3,0,"[5,4,5,4,5,4,5,4,5,3, 5]", "[Ellipses, Geometry, Area Calculation]"
+19-11-15-A, Q14,,4,0,"[4,3,5,3,5,4,5,3,5,3, 4]", "[Probability, Statistics, Variance]"
+19-11-15-A, Q15,,4,0,"[4,3,5,3,5,3,5,3,5,3, 4]", "[Exponential Functions, Geometry, Perpendicular Lines]"
+19-11-15-A, Q16,,4,1,"[4,3,5,2,5,3,5,3,4,3, 4]", "[Combinatorics, Diophantine Equations]",
+19-11-15-A, Q17,,4,1,"[5,4,5,3,5,3,5,4,5,3, 5]", "[Geometric Optimization, Triangle Geometry]",
+19-11-15-A, Q18,,4,0,"[5,3,5,3,5,3,5,3,4,3, 4]", "[Normal Distribution, Probability]",
+19-11-15-A, Q19,,4,0,"[5,4,5,4,5,4,5,4,5,3, 5]", "[Circle Geometry, Lengths, Geometric Relationships]"
+19-11-15-A, Q20,,4,0,"[4,4,5,3,5,3,5,3,4,3, 4]", "[Probability, Combinatorics]",
+19-11-15-A, Q21,,4,0,"[5,4,5,4,5,4,5,4,5,3, 5]", "[Differentiability, Integrals, Functions]"
+19-11-15-A, Q22,,3,1,"[3,3,5,2,5,3,5,3,4,3, 3]", "[Differentiation, Logarithmic Functions]",
+19-11-15-A, Q23,,3,1,"[3,3,5,2,5,3,5,3,4,3, 3]", "[Binomial Distribution, Statistics]",
+19-11-15-A, Q24,,3,1,"[5,4,5,3,5,3,5,4,5,2, 5]", "[Geometry, Limits, Circle Tangency]"
+19-11-15-A, Q25,,3,0,"[4,4,5,3,5,3,5,3,4,3, 4]", "[Probability, Binomial Distribution, Combinatorics]"
+19-11-15-A, Q26,,4,1,"[5,4,5,4,5,3,5,3,5,3, 5]", "[Inverse Functions, Differentiation, Chain Rule]"
+19-11-15-A, Q27,,4,0,"[5,4,5,3,5,3,5,4,5,3, 5]", "[Geometric Projections, Tetrahedron, Area Calculation]"
+19-11-15-A, Q28,,4,0,"[5,4,5,3,5,3,5,3,5,3, 4]", "[Combinatorics, Counting Principles]",
+19-11-15-A, Q29,,4,0,"[5,4,5,3,5,3,5,4,5,3, 5]", "[Geometry, Volume, Tetrahedron]"
+19-11-15-A, Q30,,4,0,"[5,4,5,3,5,3,5,3,5,3, 5]", "[Curve Intersection, Differentiation, Function Calculation]"
+19-11-15-B, Q1,,2,1,"[2,2,4,1,5,2,5,2,3,3, 3]", "[Exponents, Multiplication]",,,
+19-11-15-B, Q2,,2,1,"[3,4,5,2,5,3,5,3,3,3, 4]", "[Set Theory, Algebra]",,,
+19-11-15-B, Q3,,2,1,"[4,4,5,3,5,4,5,3,4,4, 4]", "[Limits, Algebra, Rational Functions]",,
+19-11-15-B, Q4,,3,0,"[3,3,5,2,5,3,5,3,4,4, 4]", "[Functions, Function Composition]",,,
+19-11-15-B, Q5,,3,1,"[4,4,5,3,5,3,5,3,4,4, 4]", "[Probability, Set Theory]",,,
+19-11-15-B, Q6,,3,1,"[4,4,5,3,5,3,5,3,4,4, 4]", "[Algebra, Equations]",,,
+19-11-15-B, Q7,,3,1,"[4,3,5,3,5,3,5,3,4,4, 4]", "[Functions, Inverse Functions, Algebra]",,
+19-11-15-B, Q8,,3,0,"[4,4,5,3,5,4,5,3,4,4, 4]", "[Limits, Functions, Graphs]",,
+19-11-15-B, Q9,,3,1,"[4,3,5,3,5,3,5,3,4,4, 4]", "[Probability, Conditional Probability]",,,
+19-11-15-B, Q10,,3,0,"[5,4,5,4,5,4,5,3,5,5, 5]", "[Functions, Inverse Functions, Algebra]",,
+19-11-15-B, Q11,,3,1,"[5,5,5,3,5,4,5,3,5,5, 5]", "[Calculus, Riemann Sums, Limits]",,
+19-11-15-B, Q12,,3,1,"[5,4,5,4,5,4,5,3,5,5, 5]", "[Calculus, Derivatives, Optimization]",,
+19-11-15-B, Q13,,3,1,"[5,3,5,3,5,3,5,3,4,4, 4]", "[Probability, Normal Distribution, Z-Scores]",,
+19-11-15-B, Q14,,4,0,"[5,5,5,4,5,4,5,3,5,5, 5]", "[Polynomials, Limits, Algebra]",,
+19-11-15-B, Q15,,4,0,"[4,4,5,3,5,3,5,3,5,4, 4]", "[Sequences, Arithmetic Sequences, Optimization]",,
+19-11-15-B, Q16,,4,1,"[5,3,5,3,5,3,5,3,5,5, 5]", "[Probability, Random Variables, Variance, Expectation]",
+19-11-15-B, Q17,,4,0,"[5,4,5,4,5,4,5,3,5,5, 5]", "[Number Theory, Divisors, Logarithms]",,
+19-11-15-B, Q18,,4,0,"[5,5,5,4,5,4,5,3,5,5, 5]", "[Geometry, Sequences, Limits, Areas]",
+19-11-15-B, Q19,,4,1,"[5,4,5,4,5,4,5,3,5,5, 5]", "[Combinatorics, Counting Principles]",,,
+19-11-15-B, Q20,,4,0,"[5,4,5,4,5,4,5,3,5,5, 5]", "[Piecewise Functions, Continuity, Differentiability, Polynomials]",
+19-11-15-B, Q21,,4,0,"[5,4,5,4,5,4,5,3,5,5, 5]", "[Sequences, Recurrence Relations, Summation]",,
+19-11-15-B, Q22,,3,1,"[3,3,5,2,5,2,5,1,5,5, 5]", "[Combinations, Permutations]",,,
+19-11-15-B, Q23,,3,1,"[4,3,5,3,5,3,5,2,5,5, 5]", "[Sequences, Geometric Sequences, Algebraic Expressions]",,
+19-11-15-B, Q24,,3,1,"[3,3,5,2,5,2,5,1,5,5, 5]", "[Probability, Binomial Distribution]",,,
+19-11-15-B, Q25,,3,1,"[4,3,5,2,5,3,5,1,5,5, 5]", "[Polynomials, Remainders, Summation]",,
+19-11-15-B, Q26,,4,0,"[4,4,5,3,5,3,5,2,5,5, 5]", "[Functions, Area, Absolute Value, Graphs]",
+19-11-15-B, Q27,,4,1,"[3,3,5,2,5,3,5,3,4,4, 5]", "[Calculus, Velocity, Functions, Distance, Motion]"
+19-11-15-B, Q28,,4,1,"[4,5,5,3,5,5,5,4,4,4, 5]", "[Integral Calculus, Polynomial Functions, Properties of Integrals]",,
+19-11-15-B, Q29,,4,0,"[4,3,5,3,5,4,4,4,5,5, 4]", "[Combinatorics, Stars and Bars, Conditional Counting]",,
+19-11-15-B, Q30,,4,0,"[4,4,5,3,5,4,4,3,5,5, 4]", "[Cubic Functions, Roots of Equations, Derivatives, Function Evaluation]",
+20-12-04-A, Q1,,2,1,"[3,3,5,1,5,3,5,3,4,2, 3]", "[Roots, Exponents, Simplification]"  ,,
+20-12-04-A, Q2,,2,1,"[4,4,5,2,4,5,5,4,5,4, 4]", "[Limits, Algebraic Simplification, Rationalization]"  ,,
+20-12-04-A, Q3,,2,0,"[3,3,5,2,5,4,5,3,3,3, 3]", "[Trigonometry, Sine, Tangent, Pythagorean Identity]"  ,
+20-12-04-A, Q4,,3,1,"[4,4,5,2,5,4,5,4,5,3, 4]", "[Probability, Conditional Probability, Set Operations]"  ,,
+20-12-04-A, Q5,,3,1,"[4,4,5,3,5,3,5,4,4,3, 4]", "[Inequalities, Exponents, Algebraic Manipulation]"  ,,
+20-12-04-A, Q6,,3,1,"[3,3,5,2,5,3,5,4,4,3, 3]", "[Statistics, Expectation, Standard Deviation, Central Limit Theorem]"  ,
+20-12-04-A, Q7,,3,1,"[4,4,5,3,4,4,5,4,4,3, 4]", "[Calculus, Derivatives, Optimization]"  ,,
+20-12-04-A, Q8,,3,1,"[4,4,5,3,5,4,5,4,5,2, 4]", "[Integration, Exponential Functions, Area Under a Curve]"  ,,
+20-12-04-A, Q9,,3,1,"[4,4,5,2,5,4,5,3,5,3, 4]", "[Probability, Combinatorics, Conditional Probability]"  ,,
+20-12-04-A, Q10,,3,1,"[4,4,5,3,5,4,5,4,5,3, 4]", "[Trigonometry, Triangle Properties, Circumradius, Law of Sines]"  ,
+20-12-04-A, Q11,,3,0,"[4,4,5,3,5,4,5,4,5,3, 4]", "[Limits, Sums, Riemann Sums, Asymptotic Analysis]"  ,
+20-12-04-A, Q12,,3,0,"[5,4,5,3,4,5,5,4,5,3, 4]", "[Probability, Normal Distribution, Z-scores, Transformation of Variables]"  ,
+20-12-04-A, Q13,,3,0,"[5,4,5,3,5,5,5,4,5,3, 5]", "[Logarithms, Geometry, Coordinate Geometry, Quadrilaterals]"  ,
+20-12-04-A, Q14,,4,1,"[5,4,5,4,5,5,5,4,5,3, 5]", "[Geometry, Rectangles, Similarity, Limits, Recursive Areas]"  
+20-12-04-A, Q15,,4,1,"[5,4,5,3,5,4,5,4,5,3, 5]", "[Differentiation, Integration, Function Relationships, Chain Rule]"  ,
+20-12-04-A, Q16,,4,0,"[5,5,5,4,5,5,5,4,5,4, 5]", "[Sequences, Arithmetic Progression, Geometry, Differentiation, Area Calculation]"  
+20-12-04-A, Q17,,4,1,"[5,4,5,3,5,4,5,3,5,4, 5]", "[Probability, Random Variables, Expectation, Distance from a Line]"  ,
+20-12-04-A, Q18,,4,0,"[5,4,5,3,5,4,5,3,5,4, 5]", "[Limits, Function Composition, Algebraic Manipulation, Real Analysis]"  ,
+20-12-04-A, Q19,,4,0,"[5,4,5,3,5,5,5,3,5,4, 5]", "[Probability, Dice Rolling, Random Variables, Combinatorics]"  ,
+20-12-04-A, Q20,,4,0,"[5,4,5,3,5,4,5,3,5,4, 5]", "[Function Analysis, Continuity, Integration, Piecewise Functions]"  ,
+20-12-04-A, Q21,,4,0,"[5,4,5,3,5,5,5,4,5,4, 5]", "[Recursion, Sequences, Algebraic Manipulation]"  ,,
+20-12-04-A, Q22,,3,1,"[3,3,5,2,5,3,5,3,4,3, 3]", "[Binomial Expansion, Algebra]"  ,,,
+20-12-04-A, Q23,,3,0,"[3,3,5,2,5,3,5,3,4,3, 3]", "[Derivatives, Rational Functions, Limits]"  ,,
+20-12-04-A, Q24,,3,0,"[4,4,5,4,5,3,4,4,4,4, 3]", "[Geometry, Trigonometry, Area Calculation]"  ,,
+20-12-04-A, Q25,,3,0,"[4,3,5,3,5,4,3,4,4,4, 3]", "[Arithmetic Sequences, Summation, Linear Expressions]"  ,,
+20-12-04-A, Q26,,4,1,"[4,3,5,2,5,3,4,4,4,4, 3]", "[Combinatorics, Permutations, Arrangements]"  ,,
+20-12-04-A, Q27,,4,0,"[4,3,5,2,5,3,4,4,4,4, 3]", "[Logarithms, Inequalities, Natural Numbers]"  ,,
+20-12-04-A, Q28,,4,0,"[4,3,5,2,5,3,4,4,4,4, 3]", "[Composite Functions, Inverses, Differentiability]"  ,,
+20-12-04-A, Q29,,4,0,"[4,3,5,2,5,3,4,4,5,4, 5]", "[Combinatorics, Partitioning, Constraints]"  ,,
+20-12-04-A, Q30,,4,0,"[4,5,5,3,5,5,4,4,5,4, 5]", "[Cubic Functions, Extremes, Trigonometric Functions, Algebra]",
+20-12-04-B, Q1,,2,1,"[2,3,5,2,5,3,5,3,4,3, 2]", "[Exponents, Fractional Powers, Arithmetic Operations]"  ,
+20-12-04-B, Q2,,2,1,"[3,4,5,2,5,3,5,4,4,3, 3]", "[Geometric Sequences, Sequences and Series]"  ,,
+20-12-04-B, Q3,,2,1,"[4,5,5,3,5,4,5,4,4,3, 4]", "[Limits, Rational Functions]"  ,,
+20-12-04-B, Q4,,3,1,"[2,2,5,2,5,2,5,3,2,3, 3]", "[Trigonometric Functions, Maximum and Minimum Values]"  ,,
+20-12-04-B, Q5,,3,0,"[4,4,5,3,5,3,5,3,4,4, 3]", "[Probability, Conditional Probability, Independence of Events]"  ,
+20-12-04-B, Q6,,3,1,"[3,3,5,2,5,3,5,4,3,3, 3]", "[Differentiation, Polynomial Functions]"  ,,
+20-12-04-B, Q7,,3,1,"[4,4,5,3,5,4,5,3,4,4, 3]", "[Inequalities, Exponential Functions]"  ,,
+20-12-04-B, Q8,,3,1,"[3,3,5,3,5,3,5,4,3,3, 3]", "[Probability, Multiplication Rule, Dice Probability]"  ,
+20-12-04-B, Q9,,3,1,"[4,4,5,3,5,4,5,4,4,4, 4]", "[Tangent Lines, Derivatives, Curve Analysis, Linear Functions]"  
+20-12-04-B, Q10,,3,1,"[2,2,5,2,5,2,5,2,2,2, 2]", "[Sequences, Summation, Arithmetic Operations]"  ,
+20-12-04-B, Q11,,3,1,"[3,3,5,3,5,3,5,3,3,4, 3]", "[Normal Distribution, Expected Value, Standard Deviation, Sampling Distribution]"  
+20-12-04-B, Q12,,3,1,"[4,4,5,3,5,4,5,4,4,4, 4]", "[Sequences, Summation, Recursive Relations]"  ,
+20-12-04-B, Q13,,3,0,"[3,4,5,3,5,4,5,3,4,4, 3]", "[Functions, Set Theory, Inequalities]"  ,
+20-12-04-B, Q14,,4,1,"[4,4,5,3,5,3,5,4,4,4, 4]", "[Velocity, Integration, Motion]"  ,
+20-12-04-B, Q15,,4,1,"[4,4,5,3,5,4,5,4,3,4, 4]", "[Permutations, Combinations, Circular Arrangements]"  ,
+20-12-04-B, Q16,,4,1,"[4,4,5,3,5,4,5,4,4,4, 4]", "[Trigonometric Equations, Sine and Cosine Functions]"  ,,
+20-12-04-B, Q17,,4,0,"[5,5,5,3,5,4,5,4,4,4, 4]", "[Limits, Derivatives, Polynomial Functions]"  ,
+20-12-04-B, Q18,,4,0,"[4,4,5,3,5,4,5,4,4,4, 3]", "[Logarithmic Functions, Geometry, Coordinate Geometry]"  ,
+20-12-04-B, Q19,,4,0,"[5,5,5,3,5,4,5,4,4,4, 4]", "[Probability, Normal Distribution, Standard Normal Distribution]"  ,
+20-12-04-B, Q20,,4,0,"[5,5,5,3,5,4,5,4,4,4, 4]", "[Calculus, Derivatives, Integration, Function Analysis]"  
+20-12-04-B, Q21,,4,0,"[5,5,5,3,5,4,5,4,4,4, 4]", "[Sequences, Recursion, Function Evaluation]"  ,
+20-12-04-B, Q22,,3,1,"[2,2,5,2,5,2,5,2,2,2, 2]", "[Binomial Expansion]"  ,,,
+20-12-04-B, Q23,,3,1,"[3,3,5,2,5,3,5,4,3,3, 3]", "[Derivatives, Integration, Function Evaluation]"  ,
+20-12-04-B, Q24,,3,1,"[2,2,5,2,5,2,5,2,2,2, 2]", "[Logarithmic Properties, Arithmetic Operations]"  ,,
+20-12-04-B, Q25,,3,1,"[4,4,5,3,5,4,5,4,4,4, 4]", "[Polynomial Functions, Intersections, Solving Equations]"  ,
+20-12-04-B, Q26,,4,0,"[5,5,5,3,5,4,5,4,4,4, 4]", "[Piecewise Functions, Continuity, Solving Equations]"  ,
+20-12-04-B, Q27,,4,1,"[4,4,5,3,5,4,5,4,4,4, 4]", "[Integration, Area Under a Curve, Polynomial Functions]"  ,
+20-12-04-B, Q28,,4,1,"[4,4,5,3,5,4,5,4,4,4, 4]", "[Geometry, Trigonometry, Circumradius, Triangle Properties]"  
+20-12-04-B, Q29,,4,0,"[4,4,5,3,5,4,5,3,4,4, 4]", "[Probability, Combinatorics, Random Variables, Dice Rolls]"  
+20-12-04-B, Q30,,4,1,"[5,5,5,3,5,4,5,4,4,4, 4]", "[Piecewise Functions, Continuity, Differentiability, Polynomial Functions]"
+21-11-22-A, Q1,,2,1,"[2,3,4,1,5,3,5,2,4,2, 3]", "[Exponents, Fractional Powers]",,
+21-11-22-A, Q2,,2,1,"[2,3,5,1,5,2,5,2,3,2, 3]", "[Differentiation, Polynomial Functions]",,
+21-11-22-A, Q3,,3,1,"[3,3,5,2,5,3,5,2,3,2, 4]", "[Arithmetic Sequences, Sequences and Series]",,
+21-11-22-A, Q4,,3,1,"[3,4,5,2,5,3,5,2,4,3, 3]", "[Limits, Continuity, Piecewise Functions]",
+21-11-22-A, Q5,,3,1,"[3,3,5,2,5,3,5,2,3,2, 4]", "[Sequences and Series, Recursive Sequences]",,
+21-11-22-A, Q6,,3,0,"[4,4,5,2,5,3,5,2,4,3, 3]", "[Polynomials, Cubic Equations, Roots]",
+21-11-22-A, Q7,,3,0,"[4,4,5,2,5,3,5,2,4,3, 3]", "[Trigonometry, Trigonometric Equations]",,
+21-11-22-A, Q8,,3,0,"[4,4,5,2,5,3,5,2,4,3, 4]", "[Area, Integration, Quadratic Functions]",
+21-11-22-A, Q9,,4,1,"[4,4,5,2,5,3,5,2,4,3, 4]", "[Exponential Functions, Systems of Equations, Geometry]",
+21-11-22-A, Q10,,4,0,"[4,4,5,2,5,3,5,2,4,3, 4]", "[Differentiation, Cubic Functions, Tangents]",
+21-11-22-A, Q11,,4,0,"[5,5,5,2,5,4,5,2,5,4, 5]", "[Trigonometry, Geometry, Tangents, Equilateral Triangles]"
+21-11-22-A, Q12,,4,1,"[4,4,5,2,5,3,5,2,4,3, 4]", "[Functional Equations, Continuity, Algebra]",
+21-11-22-A, Q13,,4,0,"[5,4,5,2,5,3,5,2,5,4, 5]", "[Logarithms, Exponential Functions, Algebra]",
+21-11-22-A, Q14,,4,0,"[5,4,5,2,5,4,5,2,5,4, 4]", "[Differentiation, Velocity, Integral Calculus, Motion]"
+21-11-22-A, Q15,,4,1,"[5,5,5,2,5,4,5,2,5,4, 5]", "[Geometry, Circle Theorems, Trigonometry]",
+21-11-22-A, Q16,,3,1,"[3,3,5,1,5,2,5,2,3,2, 3]", "[Logarithms, Algebra]",,
+21-11-22-A, Q17,,3,1,"[2,3,5,1,5,2,5,2,3,2, 3]", "[Differentiation, Integration, Polynomial Functions]",
+21-11-22-A, Q18,,3,1,"[3,3,5,2,5,3,5,2,3,2, 4]", "[Sequences and Series, Algebra]",,
+21-11-22-A, Q19,,3,1,"[4,4,5,2,5,3,5,2,4,3, 4]", "[Differentiation, Polynomial Functions, Critical Points]",
+21-11-22-A, Q20,,4,0,"[4,4,5,2,5,3,5,2,4,3, 4]", "[Integration, Differentiation, Functional Equations]",
+21-11-22-A, Q21,,4,0,"[3,3,5,2,5,3,5,2,3,2, 4]", "[Sequences and Series, Geometric Progression]",,
+21-11-22-A, Q22,,4,0,"[4,4,5,2,5,3,5,2,4,3, 4]", "[Cubic Functions, Derivatives, Real Roots]",
+21-11-22-A, Q23,,2,1,"[2,2,5,1,5,1,5,2,3,2, 2]", "[Binomial Expansion]",,,
+21-11-22-A, Q24,,3,1,"[3,3,5,2,5,3,5,2,3,2, 3]", "[Probability, Binomial Distribution, Variance]",
+21-11-22-A, Q25,,3,0,"[4,3,5,2,5,3,5,2,4,3, 3]", "[Diophantine Equations, Combinatorics]",,
+21-11-22-A, Q26,,3,1,"[4,4,5,2,5,3,5,2,4,3, 4]", "[Combinatorics, Probability, Counting]",
+21-11-22-A, Q27,,3,1,"[5,4,5,2,5,3,5,2,4,3, 4]", "[Statistics, Confidence Interval, Normal Distribution]",
+21-11-22-A, Q28,,4,0,"[4,4,5,2,5,3,5,2,4,3, 4]", "[Combinatorics, Functions, Set Theory]",
+21-11-22-A, Q29,,4,0,"[4,4,5,2,5,3,5,2,4,3, 4]", "[Probability, Continuous Random Variables, Integration]",
+21-11-22-A, Q30,,4,0,"[4,4,5,2,5,3,5,2,4,3, 4]", "[Probability, Random Variables, Combinatorics]",
+22-11-21-A, Q1,,2,1,"[4,3,5,1,5,2,5,3,4,3, 4]", "[Exponents, Fractional Powers]",,
+22-11-21-A, Q2,,2,1,"[3,4,5,1,5,3,5,3,4,3, 4]", "[Limits, Algebraic Manipulations]",,
+22-11-21-A, Q3,,3,1,"[4,4,5,1,5,3,5,4,3,3, 4]", "[Geometric Sequences, Algebraic Manipulations]",,
+22-11-21-A, Q4,,3,1,"[3,4,5,1,5,3,5,3,4,3, 4]", "[Differentiation, Product Rule]",,
+22-11-21-A, Q5,,3,0,"[4,4,5,1,5,3,5,3,4,3, 4]", "[Trigonometry, Trigonometric Identities]",,
+22-11-21-A, Q6,,3,0,"[4,4,5,1,5,3,5,4,3,3, 4]", "[Calculus, Critical Points, Derivatives]",
+22-11-21-A, Q7,,3,0,"[4,4,5,1,5,3,5,4,3,3, 4]", "[Arithmetic Sequences, Series, Square Roots]",
+22-11-21-A, Q8,,3,1,"[3,4,5,1,5,3,5,3,4,3, 4]", "[Differentiation, Tangent Lines, Cubic Functions]",
+22-11-21-A, Q9,,4,0,"[4,4,5,1,5,3,5,4,3,3, 4]", "[Trigonometry, Tangent Function, Optimization]",
+22-11-21-A, Q10,,4,1,"[5,5,5,1,5,4,5,4,3,3, 4]", "[Area Under Curves, Integration, Cubic Functions, Optimization]"
+22-11-21-A, Q11,,4,1,"[5,5,5,1,5,4,5,4,3,3, 4]", "[Geometry, Cyclic Quadrilaterals, Circle Geometry, Trigonometry]"
+22-11-21-A, Q12,,4,1,"[4,4,5,1,5,3,5,4,3,3, 4]", "[Integration, Piecewise Functions, Continuity, Optimization]"
+22-11-21-A, Q13,,4,0,"[4,4,5,1,5,3,5,4,3,3, 4]", "[Number Theory, Roots of Numbers, Integer Solutions]",
+22-11-21-A, Q14,,4,0,"[4,4,5,1,5,3,5,4,3,3, 4]", "[Piecewise Functions, Limits, Continuity, Optimization]"
+22-11-21-A, Q15,,4,0,"[4,4,5,1,5,3,5,4,3,3, 4]", "[Recurrence Relations, Sequences, Divisibility]",
+22-11-21-A, Q16,,3,1,"[4,3,5,1,5,3,5,3,4,3, 4]", "[Logarithms, Algebraic Manipulations]",,
+22-11-21-A, Q17,,3,1,"[4,3,5,1,5,3,5,3,4,3, 4]", "[Differentiation, Integration, Polynomial Functions]",
+22-11-21-A, Q18,,3,1,"[4,3,5,1,5,3,5,3,4,3, 4]", "[Sequences, Summation, Algebraic Manipulations]",
+22-11-21-A, Q19,,3,1,"[4,4,5,1,5,3,5,4,3,3, 4]", "[Cubic Equations, Roots, Real Solutions]",
+22-11-21-A, Q20,,4,0,"[4,4,5,1,5,3,5,4,3,3, 4]", "[Velocity, Acceleration, Distance Traveled, Calculus]"
+22-11-21-A, Q21,,4,0,"[5,4,5,1,5,3,5,4,3,3, 4]", "[Cubic Equations, Roots, Real Solutions, Algebraic Manipulations]"
+22-11-21-A, Q22,,4,0,"[5,4,5,1,5,3,5,4,3,3, 4]", "[Cubic Functions, Derivatives, Functional Equations]",
+22-11-21-B, Q1,,2,1,"[4,3,5,1,5,3,5,3,4,3, 4]", "[Binomial Theorem, Polynomial Expansion]",,
+22-11-21-B, Q2,,3,0,"[5,4,5,1,5,3,5,4,3,3, 4]", "[Combinatorics, Permutations, Counting Principles]",
+22-11-21-B, Q3,,3,1,"[5,4,5,1,5,3,5,4,3,3, 4]", "[Combinatorics, Probability, Conditional Probability]",
+22-11-21-B, Q4,,3,1,"[5,4,5,1,5,3,5,4,3,3, 4]", "[Probability, Events, Conditional Probability, Set Theory]"
+22-11-21-B, Q5,,3,1,"[5,4,5,1,5,3,5,4,3,3, 4]", "[Confidence Intervals, Normal Distribution, Sample Size Determination]",
+22-11-21-B, Q6,,4,1,"[5,4,5,1,5,3,5,4,3,3, 4]", "[Probability Distribution, Continuous Random Variables, Probability Calculations]",
+22-11-21-B, Q7,,4,1,"[5,4,5,1,5,3,5,4,3,3, 4]", "[Combinatorics, Probability, Conditional Probability, Events]"
+22-11-21-B, Q8,,4,1,"[3,4,5,1,5,3,5,4,3,3, 4]", "[Combinatorics, Functions, Inequalities]",
+22-11-21-C, Q1,,2,1,"[3,3,5,2,5,3,5,2,3,4, 3]", "[Limits, Logarithmic Functions, Square Roots, Rationalization]",,
+22-11-21-C, Q2,,3,1,"[4,4,5,3,5,4,5,3,4,4, 4]", "[Limits, Riemann Sums, Square Roots, Integration]",,
+22-11-21-C, Q3,,3,0,"[4,3,5,3,5,3,5,3,3,3, 3]", "[Sequences, Geometric Sequences, Limits, Exponentiation]",,
+22-11-21-C, Q4,,3,1,"[5,5,5,3,5,5,5,4,5,4, 4]", "[Calculus, Integration, Volumes of Solids of Revolution, Square Cross-Sections, Trigonometric Functions]",
+22-11-21-C, Q5,,3,0,"[5,5,5,3,5,5,5,4,5,4, 4]", "[Geometry, Limits, Areas, Trigonometry, Recursive Sequences]",
+22-11-21-C, Q6,,4,0,"[5,5,5,4,5,5,5,3,5,4, 4]", "[Geometry, Limits, Triangles, Areas, Trigonometry, Circle Geometry]"
+22-11-21-C, Q7,,4,0,"[4,4,5,3,5,4,5,3,4,4, 4]", "[Exponential Functions, Limits, Inverse Functions, Integrals, Logarithms]",
+22-11-21-C, Q8,,4,0,"[5,5,5,3,5,4,5,3,5,4, 4]", "[Cubic Functions, Exponential Functions, Composite Functions, Derivatives, Local Maxima]",
+22-11-21-D, Q1,,2,1,"[3,2,5,2,5,3,5,3,3,3, 3]", "[3D Geometry, Reflection, Distance Formula]",,
+22-11-21-D, Q2,,3,1,"[4,3,5,3,5,3,5,3,4,4, 3]", "[Parabolas, Focus, Directrix, Distance Formula]",
+22-11-21-D, Q3,,3,0,"[4,4,5,3,5,3,5,3,4,4, 3]", "[Ellipses, Tangent Lines, Slope, Geometry, Conic Sections]"
+22-11-21-D, Q4,,3,1,"[4,4,5,3,5,3,5,3,4,4, 3]", "[Vectors, Dot Product, Geometry, Minimization]",
+22-11-21-D, Q5,,3,1,"[4,4,5,3,5,4,5,3,4,4, 3]", "[3D Geometry, Angles, Planes, Dot Product, Trigonometry]"
+22-11-21-D, Q6,,4,0,"[5,5,5,4,5,4,5,3,5,4, 4]", "[Hyperbolas, Geometry, Foci, Tangents, Coordinate Geometry]"
+22-11-21-D, Q7,,4,0,"[5,5,5,4,5,4,5,3,5,4, 4]", "[Geometry, Trapezoids, Coordinate Geometry, Angles, Distances]"
+22-11-21-D, Q8,,4,0,"[5,5,5,4,5,4,5,3,5,4, 4]", "[3D Geometry, Regular Tetrahedrons, Spheres, Projections, Tangents]"
+23-11-20-A, Q1,,2,1,"[2,3,4,1,5,2,5,2,3,3, 3]", "[Radicals, Exponents, Multiplication]",,
+23-11-20-A, Q2,,2,1,"[4,4,5,3,4,3,5,4,4,3, 4]", "[Limits, Polynomial Functions, Derivatives]",,
+23-11-20-A, Q3,,3,1,"[4,4,5,3,4,3,5,4,4,3, 4]", "[Trigonometric Functions, Angles, Tangent]",,
+23-11-20-A, Q4,,3,1,"[4,4,5,3,4,3,5,3,4,3, 4]", "[Piecewise Functions, Continuity, Algebra]",,
+23-11-20-A, Q5,,3,1,"[4,4,5,3,4,3,5,3,4,3, 4]", "[Polynomial Functions, Differentiation, Integration]",,
+23-11-20-A, Q6,,3,0,"[5,5,5,4,3,4,5,4,5,3, 5]", "[Geometric Sequences, Series, Algebraic Manipulation]",,
+23-11-20-A, Q7,,3,1,"[4,4,5,3,4,3,5,4,4,3, 4]", "[Differentiation, Polynomial Functions, Critical Points]",,
+23-11-20-A, Q8,,3,1,"[5,5,5,3,4,3,5,4,5,2, 4]", "[Cubic Functions, Integrals, Symmetry]",,
+23-11-20-A, Q9,,4,1,"[4,4,5,3,5,3,5,4,4,3, 4]", "[Logarithms, Ratios, Algebraic Manipulation]",,
+23-11-20-A, Q10,,4,0,"[5,5,5,4,4,4,5,4,5,3, 5]", "[Kinematics, Derivatives, Integration, Motion Analysis]",
+23-11-20-A, Q11,,4,0,"[5,5,5,4,3,4,5,4,5,2, 5]", "[Arithmetic Sequences, Series, Algebraic Manipulation]",,
+23-11-20-A, Q12,,4,1,"[5,5,5,4,4,3,5,4,5,3, 5]", "[Piecewise Functions, Optimization, Algebraic Manipulation]",,
+23-11-20-A, Q13,,4,0,"[5,5,5,4,4,4,5,4,5,3, 5]", "[Geometry, Trigonometry, Area, Circle, Sine Rule]"
+23-11-20-A, Q14,,4,0,"[5,5,5,4,3,4,5,4,5,2, 5]", "[Piecewise Functions, Cubic Functions, Intersections, Limits, Algebra]"
+23-11-20-A, Q15,,4,0,"[5,5,5,4,4,4,5,4,5,3, 5]", "[Sequences, Recursion, Algebraic Manipulation, Parity]",
+23-11-20-A, Q16,,3,1,"[3,3,5,2,5,2,5,2,3,3, 4]", "[Exponents, Algebra, Logarithms]",,
+23-11-20-A, Q17,,3,1,"[3,3,5,2,5,2,5,2,3,3, 4]", "[Differentiation, Polynomial Functions]",,,
+23-11-20-A, Q18,,3,1,"[4,4,5,3,4,3,5,3,4,3, 4]", "[Sequences, Summation, Algebraic Manipulation]",,
+23-11-20-A, Q19,,3,0,"[4,4,5,3,4,3,5,3,4,3, 4]", "[Trigonometric Functions, Inequalities, Algebraic Manipulation]",,
+23-11-20-A, Q20,,4,0,"[5,5,5,4,3,4,5,4,5,3, 5]", "[Differentiation, Cubic Functions, Geometry, Tangent Lines, Circle Geometry]"
+23-11-20-A, Q21,,4,0,"[5,5,5,4,3,4,5,4,5,3, 5]", "[Piecewise Functions, Logarithms, Optimization, Algebraic Manipulation]",
+23-11-20-A, Q22,,4,0,"[5,5,5,4,3,4,5,4,5,3, 5]", "[Cubic Functions, Derivatives, Sign Analysis, Algebraic Manipulation]",
+23-11-20-A, Q23,,2,1,"[2,1,5,1,5,5,5,5,3,5, 2]", "[Permutations, Combinatorics]",,,
+23-11-20-A, Q24,,3,1,"[4,4,5,3,4,3,5,3,4,3, 4]", "[Probability, Set Theory, Conditional Probability]",,
+23-11-20-A, Q25,,3,0,"[4,4,5,3,4,3,5,3,4,3, 4]", "[Combinatorics, Probability, Permutations, Sum Analysis]",
+23-11-20-A, Q26,,3,1,"[4,4,5,3,4,3,5,3,4,3, 4]", "[Probability, Expected Value, Random Variables, Combinatorics]",
+23-11-20-A, Q27,,3,1,"[5,5,5,3,4,3,5,3,5,3, 5]", "[Confidence Interval, Normal Distribution, Sample Mean, Statistical Inference]",
+23-11-20-A, Q28,,4,1,"[4,5,5,3,4,3,5,3,5,4, 5]", "[Combinatorics, Conditional Probability, Probability Distribution, Ball Transfer Process]",
+23-11-20-A, Q29,,4,0,"[3,5,5,2,4,3,5,3,4,3, 4]", "[Combinatorics, Inequalities, Counting]",,
+23-11-20-A, Q30,,4,0,"[3,4,3,3,4,4,4,3,5,4, 4]", "[Probability, Normal Distribution, Z-Scores, Conditional Probability]",

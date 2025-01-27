@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-AozDLUSFyQbbpL4eBQfSyIvaUzwon",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"steps\":[{\"output\":\"[KR] 1) 삼각형 ABC의 높이 AD를 구합니다. 피타고라스 정리를 이용하여:\\n\\\\(AD^2 + BD^2 = AB^2\\\\)\\n\\\\(AD^2 + (BC-BD)^2 = AC^2\\\\)\",\"explanation\":\"삼각형의 높이를 구하기 위해 피타고라스 정리를 사용합니다.\"},{\"output\":\"2) BC를 x라 하면:\\n\\\\(AD^2 + BD^2 = 25\\\\)\\n\\\\(AD^2 + (x-BD)^2 = 20\\\\)\",\"explanation\":\"두 식을 통해 AD와 BD의 관계를 설정합니다.\"},{\"output\":\"3) 두 식을 빼면:\\n\\\\(BD^2 - (x-BD)^2 = 5\\\\)\\n\\\\(BD^2 - (x^2-2xBD+BD^2) = 5\\\\)\\n\\\\(2xBD - x^2 = 5\\\\)\\n\\\\(BD = \\\\frac{x^2+5}{2x}\\\\)\",\"explanation\":\"BD에 대한 식을 구합니다.\"},{\"output\":\"4) 이를 첫 번째 식에 대입하면:\\n\\\\(AD^2 + (\\\\frac{x^2+5}{2x})^2 = 25\\\\)\\n\\\\(AD^2 = 25 - (\\\\frac{x^2+5}{2x})^2\\\\)\\n\\\\(AD^2 = \\\\frac{100x^2-(x^2+5)^2}{4x^2}\\\\)\\n\\\\(AD^2 = \\\\frac{90x^2-x^4-25}{4x^2}\\\\)\",\"explanation\":\"AD에 대한 식을 구합니다.\"},{\"output\":\"5) AE : ED = 3 : 1 이므로 AE = \\\\(\\\\frac{3}{4}\\\\)AD, DE = \\\\(\\\\frac{1}{4}\\\\)AD\",\"explanation\":\"내분점 E의 위치를 설정합니다.\"},{\"output\":\"6) 삼각형 ECB에서 피타고라스 정리를 적용하면:\\n\\\\(EB^2 + EC^2 = BC^2\\\\)\\n\\\\((AD-DE)^2 + 5 = x^2\\\\)\\n\\\\((\\\\frac{3}{4}AD)^2 + 5 = x^2\\\\)\\n\\\\(\\\\frac{9}{16}AD^2 + 5 = x^2\\\\)\",\"explanation\":\"삼각형 ECB에 피타고라스 정리를 적용합니다.\"},{\"output\":\"7) 4)의 결과를 대입하면:\\n\\\\(\\\\frac{9}{16} \\\\cdot \\\\frac{90x^2-x^4-25}{4x^2} + 5 = x^2\\\\)\\n\\\\(\\\\frac{90x^2-x^4-25}{64x^2} + 5 = x^2\\\\)\\n\\\\(90x^2-x^4-25 + 320x^4 = 64x^4\\\\)\\n\\\\(255x^4 - 90x^2 + 25 = 0\\\\)\",\"explanation\":\"x에 대한 방정식을 설정합니다.\"},{\"output\":\"8) 이차방정식의 근의 공식을 이용하여 x^2에 대해 풀면:\\n\\\\(x^2 = \\\\frac{90 \\\\pm \\\\sqrt{8100-4 \\\\cdot 255 \\\\cdot 25}}{2 \\\\cdot 255} = \\\\frac{90 \\\\pm \\\\sqrt{900}}{510} = \\\\frac{90 \\\\pm 30}{510}\\\\)\",\"explanation\":\"x^2의 값을 구합니다.\"},{\"output\":\"9) x^2의 값은 \\\\(\\\\frac{120}{510} = \\\\frac{4}{17}\\\\) 또는 \\\\(\\\\frac{60}{510} = \\\\frac{2}{17}\\\\)이 됩니다.\\n하지만 \\\\(x^2 = \\\\frac{2}{17}\\\\)일 때 AD의 값이 허수가 되므로, \\\\(x^2 = \\\\frac{4}{17}\\\\)입니다.\",\"explanation\":\"올바른 x^2 값을 선택합니다.\"},{\"output\":\"10) 따라서 \\\\(BC = x = \\\\frac{2\\\\sqrt{17}}{17}\\\\)\",\"explanation\":\"BC의 값을 구합니다.\"},{\"output\":\"11) \\\\(\\\\cos \\\\alpha = \\\\frac{BD}{AB} = \\\\frac{BC^2+5}{2BC \\\\cdot AB} = \\\\frac{4/17+5}{2 \\\\cdot 2\\\\sqrt{17}/17 \\\\cdot 5} = \\\\frac{89}{170\\\\sqrt{17}}\\\\)\",\"explanation\":\"\\\\(\\\\cos \\\\alpha\\\\) 값을 구합니다.\"},{\"output\":\"12) \\\\(\\\\cos \\\\beta = \\\\frac{CD}{CE} = \\\\frac{BC-BD}{\\\\sqrt{5}} = \\\\frac{2\\\\sqrt{17}/17 - 89/170}{\\\\sqrt{5}} = \\\\frac{51\\\\sqrt{17}}{170\\\\sqrt{5}}\\\\)\",\"explanation\":\"\\\\(\\\\cos \\\\beta\\\\) 값을 구합니다.\"},{\"output\":\"13) \\\\(\\\\sin \\\\alpha = \\\\frac{AD}{AB} = \\\\frac{\\\\sqrt{90-x^4-25}}{2x \\\\cdot 5} = \\\\frac{3\\\\sqrt{17}}{170}\\\\)\",\"explanation\":\"\\\\(\\\\sin \\\\alpha\\\\) 값을 구합니다.\"},{\"output\":\"14) \\\\(\\\\sin \\\\beta = \\\\frac{DE}{CE} = \\\\frac{AD/4}{\\\\sqrt{5}} = \\\\frac{3\\\\sqrt{17}}{68\\\\sqrt{5}}\\\\)\",\"explanation\":\"\\\\(\\\\sin \\\\beta\\\\) 값을 구합니다.\"},{\"output\":\"15) \\\\(\\\\cos(\\\\alpha-\\\\beta) = \\\\cos \\\\alpha \\\\cos \\\\beta + \\\\sin \\\\alpha \\\\sin \\\\beta\\\\)\\n\\\\(= \\\\frac{89}{170\\\\sqrt{17}} \\\\cdot \\\\frac{51\\\\sqrt{17}}{170\\\\sqrt{5}} + \\\\frac{3\\\\sqrt{17}}{170} \\\\cdot \\\\frac{3\\\\sqrt{17}}{68\\\\sqrt{5}}\\\\)\\n\\\\(= \\\\frac{4539}{28900\\\\sqrt{5}} + \\\\frac{153}{11560\\\\sqrt{5}}\\\\)\\n\\\\(= \\\\frac{4539 \\\\cdot 4 + 153 \\\\cdot 10}{28900\\\\sqrt{5}}\\\\)\\n\\\\(= \\\\frac{18156 + 1530}{28900\\\\sqrt{5}}\\\\)\\n\\\\(= \\\\frac{19686}{28900\\\\sqrt{5}}\\\\)\\n\\\\(= \\\\frac{7\\\\sqrt{5}}{20}\\\\)\",\"explanation\":\"\\\\(\\\\cos(\\\\alpha-\\\\beta)\\\\) 값을 구합니다.\"}],\"final_answer\":\"\\\\frac{7\\\\sqrt{5}}{20}\"}",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1736715071,
+  "model": "gpt-4o-2024-08-06",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_b7d65f1a5b",
+  "usage": {
+    "completion_tokens": 1536,
+    "prompt_tokens": 2774,
+    "total_tokens": 4310,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}

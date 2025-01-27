@@ -1,0 +1,23 @@
+testID, questionID, MC, POINTS, CORRECT, gptRATE, gptTOPIC,,,,,,,,,,,,,
+22-11-21-A, Q1,,2,1,[4,3,5,1,5,2,5,3,4,3, 4], [Exponents, Fractional Powers],,
+22-11-21-A, Q2,,2,1,[3,4,5,1,5,3,5,3,4,3, 4], [Limits, Algebraic Manipulations],,
+22-11-21-A, Q3,,3,1,[4,4,5,1,5,3,5,4,3,3, 4], [Geometric Sequences, Algebraic Manipulations],,
+22-11-21-A, Q4,,3,1,[3,4,5,1,5,3,5,3,4,3, 4], [Differentiation, Product Rule],,
+22-11-21-A, Q5,,3,0,[4,4,5,1,5,3,5,3,4,3, 4], [Trigonometry, Trigonometric Identities],,
+22-11-21-A, Q6,,3,0,[4,4,5,1,5,3,5,4,3,3, 4], [Calculus, Critical Points, Derivatives],
+22-11-21-A, Q7,,3,0,[4,4,5,1,5,3,5,4,3,3, 4], [Arithmetic Sequences, Series, Square Roots],
+22-11-21-A, Q8,,3,1,[3,4,5,1,5,3,5,3,4,3, 4], [Differentiation, Tangent Lines, Cubic Functions],
+22-11-21-A, Q9,,4,0,[4,4,5,1,5,3,5,4,3,3, 4], [Trigonometry, Tangent Function, Optimization],
+22-11-21-A, Q10,,4,1,[5,5,5,1,5,4,5,4,3,3, 4], [Area Under Curves, Integration, Cubic Functions, Optimization]
+22-11-21-A, Q11,,4,1,[5,5,5,1,5,4,5,4,3,3, 4], [Geometry, Cyclic Quadrilaterals, Circle Geometry, Trigonometry]
+22-11-21-A, Q12,,4,1,[4,4,5,1,5,3,5,4,3,3, 4], [Integration, Piecewise Functions, Continuity, Optimization]
+22-11-21-A, Q13,,4,0,[4,4,5,1,5,3,5,4,3,3, 4], [Number Theory, Roots of Numbers, Integer Solutions],
+22-11-21-A, Q14,,4,0,[4,4,5,1,5,3,5,4,3,3, 4], [Piecewise Functions, Limits, Continuity, Optimization]
+22-11-21-A, Q15,,4,0,[4,4,5,1,5,3,5,4,3,3, 4], [Recurrence Relations, Sequences, Divisibility],
+22-11-21-A, Q16,,3,1,[4,3,5,1,5,3,5,3,4,3, 4], [Logarithms, Algebraic Manipulations],,
+22-11-21-A, Q17,,3,1,[4,3,5,1,5,3,5,3,4,3, 4], [Differentiation, Integration, Polynomial Functions],
+22-11-21-A, Q18,,3,1,[4,3,5,1,5,3,5,3,4,3, 4], [Sequences, Summation, Algebraic Manipulations],
+22-11-21-A, Q19,,3,1,[4,4,5,1,5,3,5,4,3,3, 4], [Cubic Equations, Roots, Real Solutions],
+22-11-21-A, Q20,,4,0,[4,4,5,1,5,3,5,4,3,3, 4], [Velocity, Acceleration, Distance Traveled, Calculus]
+22-11-21-A, Q21,,4,0,[5,4,5,1,5,3,5,4,3,3, 4], [Cubic Equations, Roots, Real Solutions, Algebraic Manipulations]
+22-11-21-A, Q22,,4,0,[5,4,5,1,5,3,5,4,3,3, 4], [Cubic Functions, Derivatives, Functional Equations],
